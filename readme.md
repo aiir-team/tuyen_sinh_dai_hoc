@@ -1,7 +1,7 @@
 # Hướng dẫn chạy project 
 - Tải Intellij IDEA bản mới nhất (2017.2.5)
 - Dùng tài khoản trường: 2013xxxx@student.hust.edu.vn rồi đăng ký và nhận key ở đây: https://www.jetbrains.com/student/
-- Tạo tài khoản gitlab và clone project về: 
+- Clone project về từ github 
 
 - Cài đặt SQL bản mới nhất: 
     + Ubuntu: https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-16-04
@@ -82,3 +82,8 @@ các class model - map với table trong database). Sau khi repository thêm và
 cái gì đó (Vd như dữ liệu vừa bị thay đổi). --> Nó sẽ truyền về cho service --> Service lại truyền ra view bằng controller. 
 
 ==> 1 vòng: tương tác --> controller --> service --> database --> service --> controller --> view.     
+
+## 5. Mã nguồn trên github
+- 2 branch chính là: master và develop.
+- Ae tất cả code trên develop nhé. Sau khi thấy ok rồi thì đẩy lên rồi sẽ check lại và nếu ok thì mới merge vào master.
+
