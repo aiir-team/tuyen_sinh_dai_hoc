@@ -30,10 +30,21 @@
     <![endif]-->
 </head>
 <body>
-<nav th:fragment="header"
-     class="navbar navbar-inverse navbar-fixed-top">
+
+<div th:fragment="user_taskbar" id="user_taskbar" >
+    <ul class="list_task">
+        <li class="inline">
+            <a href="http://tuyensinh247.com">Học trực tuyến -Tuyensinh247.com</a>
+        </li>
+        <li class="inline">
+            <a href="http://diemthi.tuyensinh247.com" >Xem điểm thi</a>
+        </li>
+    </ul>
+</div>
+
+<nav th:fragment="header" class="navbar" id="navbar_header">
     <div class="container">
-        <div class="navbar-header">
+        <div class="navbar_content">
             <button type="button" class="navbar-toggle collapsed"
                     data-toggle="collapse" data-target="#navbar" aria-expanded="false"
                     aria-controls="navbar">
@@ -42,15 +53,98 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Spring MyContact</a>
+
+            <div id="nav_left" class="col-xs-5 col-md-4 col-lg-3">
+                <img th:src="@{/img/logo_page.png}" alt="" />
+            </div>
+
+            <div id="nav_right" class="col-xs-7 col-md-offset-2 col-md-6 col-lg-offset-3 col-lg-6">
+                <ul>
+                    <li><a href="">Điểm chuẩn đại học</a></li>
+                    <li><a href="">Tư vấn chọn trường</a></li>
+                    <li><a href="">Tư vấn chọn ngành</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </nav>
 
-<h1>Main content</h1>
+<div id="header" class="bottom10">
+    <div class="bg_header">
+        <div class="main clearfix">
+            <div class="clearfix fl relative">
+                <div class="logo" style="padding-top: 0px"><a href="http://diemthi.tuyensinh247.com"
+                                                              title="Trang chủ Điểm thi Tuyensinh247.com"><span></span></a>
+                </div>
+            </div>
+            <div class="header_dk fl">
+                <div class="portlet" id="yw4">
+                    <div class="portlet-content">
 
-<footer th:fragment="footer" class="container">
-    &copy; 2017 Yuen
+                        <div id="menu-navi">
+                            <div class="mainlevel clearfix" style="width: 825px;">
+                                <ul class="item-main fr clearfix" id="list_menu">
+                                    <li rel="0">
+                                        <h2><a rel="nofollow" title="Trang chủ"
+                                               href="http://diemthi.tuyensinh247.com"
+                                               class="active ic_home"><span><strong>&nbsp;</strong></span></a>
+                                        </h2>
+                                    </li>
+                                    <li rel="23"><h2><a title="Điểm chuẩn đại học"
+                                                        href="/diem-chuan.html"><span><strong>Điểm chuẩn đại học</strong></span></a>
+                                    </h2></li>
+                                    <li rel="36"><h2><a title="Tư vấn chọn trường"
+                                                        href="/tu-van-chon-truong.html"
+                                                        class="active"><span><strong>Tư vấn chọn trường</strong></span></a>
+                                    </h2></li>
+                                    <li rel="52"><h2><a title="Điểm chuẩn lớp 10"
+                                                        href="/dc-lop10.html"><span><strong>Điểm chuẩn lớp 10</strong></span></a>
+                                    </h2></li>
+                                    <li rel="44"><h2><a title="Điểm thi THPT quốc gia 2017"
+                                                        href="/diem-thi-tot-nghiep-thpt.html"><span><strong>Điểm thi THPT quốc gia 2017</strong></span></a>
+                                    </h2></li>
+                                    <li class="last relative" id="list_sub_menu">
+                                        <h2><a href="javascript:" rel="nofollow"><span><strong
+                                                class="ic_arr-bt">Xem thêm</strong></span></a></h2>
+                                        <ul class="absolute list_style sub-menu">
+                                            <li rel="43"><a title="Điểm thi vào lớp 10 2017"
+                                                            href="/diem-thi-vao-lop-10.html">Điểm thi vào
+                                                lớp 10 2017</a></li>
+                                            <li rel="40"><a title="Thông tin trường ĐH-CĐ" rel="nofollow"
+                                                            target="_blank"
+                                                            href="http://diemthi.tuyensinh247.com/danh-sach-truong-dai-hoc-cao-dang.html">Thông
+                                                tin trường ĐH-CĐ</a></li>
+                                            <li rel="50"><a title="Đề thi thử THPT Quốc Gia 2017"
+                                                            rel="nofollow" target="_blank"
+                                                            href="http://tuyensinh247.com/khoa-599-de-thi-thu-thpt-qg-2017-cua-cac-truong-top-dau-tren-toan-quoc-co-loi-giai-chi-tiet-r204.html">Đề
+                                                thi thử THPT Quốc Gia 2017</a></li>
+                                            <li rel="26"><a title="Điểm nguyện vọng 2"
+                                                            href="/diem-nguyen-vong-2.html">Điểm nguyện vọng
+                                                2</a></li>
+                                            <li rel="22"><a title="Điểm thi đại học"
+                                                            href="/diem-thi-dai-hoc.html">Điểm thi đại
+                                                học</a></li>
+                                            <li rel="42"><a title="Điểm thi Cao Đẳng"
+                                                            href="/diem-thi-cao-dang.html">Điểm thi Cao
+                                                Đẳng</a></li>
+                                            <li rel="45"><a title="Điểm nguyện vọng 3"
+                                                            href="/diem-nguyen-vong-3.html">Điểm nguyện vọng
+                                                3</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer th:fragment="footer">
+    &copy; Copyright KSTN-CNTT-K58 (TA-H-Kh-Th) - Đại học Bách khoa Hà Nội
 </footer>
 </body>
 </html>

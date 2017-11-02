@@ -1,0 +1,35 @@
+/* Page: select_major.html */
+.main_content .title_section {
+    font-size: 20px;
+    color: #000000;
+    background: #c7c7c7ba;
+    padding: 7px 20px;
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+.main_content .explain_section {
+    margin-bottom: 30px;
+    border-bottom: 2px solid green;
+    padding: 10px;
+}
+
+#form_input .control-label {
+    text-align: left !important;
+}
+#form_input .btn_submit {
+    text-align: center;
+    margin: 40px;
+}
+
+/* End Page: select_major.html */
+
+
+
+/* Page: result_university.html */
+/* End Page: result_university.html */
+
+
+
+/* Page: result_detail.html */
+/* End Page: result_detail.html */
