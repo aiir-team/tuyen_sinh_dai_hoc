@@ -1,7 +1,6 @@
 # Hướng dẫn chạy project 
 - Tải Intellij IDEA bản mới nhất (2017.2.5)
 - Dùng tài khoản trường: 2013xxxx@student.hust.edu.vn rồi đăng ký và nhận key ở đây: https://www.jetbrains.com/student/
-- Clone project về từ github 
 
 - Cài đặt SQL bản mới nhất: 
     + Ubuntu: https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-16-04
@@ -23,7 +22,37 @@
 show databases, show tables, select * from ..., ....    
 ``` 
 
-- Tìm file: src/main/java/com.project.tuyensinhdaihoc/TuyenSinhDaiHocApplication.java rồi chạy 
+
+- Hướng dẫn import project vào Intellij IDEA 
+( Các chú dùng editor khác thì tự tìm hiểu nhé, t chỉ làm trên Intellij thôi)
+
+- Clone project về từ github : 
+```mysql
+  git clone https://github.com/HeTroGiup/tuyen_sinh_dai_hoc.git
+```
+- Có 1 chú ý với github là bình thường dùng: git clone nó sẽ không pull tất cả các branch trên remote về mà nó chỉ pull branch master. Vậy để có tất cả các branch trên local thì đầu tiên clone project về. Mở Intellij, ở góc màn hình bên dưới, và bên phải có chữ: Git: Master đó. Click vào đó và chọn chỗ : Remote Branchs --> click tiếp vào : origin/develop (nếu đây là branch muốn lấy từ trên remote xuống) --> click tiếp : Checkout as new local branch (Sau đó đặt tên cho local branch đấy là : develop ) --> Vậy là đã có thêm branch develop trên remote xuống local rồi. 
+
+- Mở Intellij rồi chọn import project from ..
+- Sau đó tìm đến project vừa clone về và chọn vào file pom.xml 
+- Tiếp đó nhớ click vào cái check box có dòng: Auto import maven dependency...
+nhé không là lỗi đấy (Để nó tự import thư viện)
+- Chờ nó load xong project rồi chỉ việc tìm file rồi chạy : 
+```mysql
+  src/main/java/com.project.tuyensinhdaihoc/TuyenSinhDaiHocApplication.java 
+```
+
+(Hoặc xem hướng dẫn như ở đây: https://spring.io/guides/gs/intellij-idea/)
+(Hoặc ở đây: https://spring.io/guides/gs/spring-boot/)
+
+- Khi chạy mà bị lỗi kiểu này: 
+
+```mysql
+  com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+```
+   
+thì là do chưa có database nhé. Nhớ làm bước tạo database trước. 
+
+
 
 # Hướng dẫn đọc project 
 
@@ -87,3 +116,9 @@ cái gì đó (Vd như dữ liệu vừa bị thay đổi). --> Nó sẽ truyề
 - 2 branch chính là: master và develop.
 - Ae tất cả code trên develop nhé. Sau khi thấy ok rồi thì đẩy lên rồi sẽ check lại và nếu ok thì mới merge vào master.
 
+## 6. Cách up code 
+- Mỗi khi commit thì ae nhớ commit rõ ràng ra nhé, về sau còn theo dõi được, mẫu như sau: 
+
+git commit -m "BranchName, Who, Task"
+
+Vd: git commit -m "Develop, ThieuNv, update code interface"
