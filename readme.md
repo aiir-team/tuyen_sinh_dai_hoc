@@ -122,3 +122,31 @@ cái gì đó (Vd như dữ liệu vừa bị thay đổi). --> Nó sẽ truyề
 git commit -m "BranchName, Who, Task"
 
 Vd: git commit -m "Develop, ThieuNv, update code interface"
+
+
+#### 3/11/2017 (ThieuNv)
+- Update giao diện web, do chưa có database nên dữ liệu vẫn là fix cứng. 
+- File: InitialData.java class chứa dữ liệu cứng nhé. Về sau sẽ gọi các service vào để lấy dữ liệu từ database.
+- Các class *VO.java là các class biểu diễn các model trong database ra ngoài giao diện. Về sau mình sẽ chỉ thao tác 
+chủ yếu trên các class này, mà không phải các class trong package: model. Tức là các thao tác logic sẽ thực hiện 
+trên các class này mà không phải là trong các class controller. (Controller ta chỉ nên dùng để quản lý router, còn 
+business logic và transfer data thì dùng các service và các class VO).
+- Để build được cái form input đó thì tạo object "advisory" rồi truyền vào form html theo cú pháp trong trang html.
+```mysql
+  <form ... th:object="advisory" > ... </form> 
+```
+- Cách truyền từ java vào là: 
+```mysql
+    model.addAttribute("advisory", new AdvisoryVO())
+```
+- Các thuộc tính của class "Advisory" tương ứng với các field của form nhé. 
+ 
+- Mấy cái class liên quan đến Contact thì nó chả có tác dụng gì nhé. Mục đích t vẫn giữ lại vì hiện tại chưa có 
+các class chính của project nên cứ để tạm đấy, khi nào tạo database thì sẽ loại bỏ chúng. 
+- 3 router chính để view giao diện:
+    localhost:8080/advisory/select-major (Giao diện nhập input các tham số)
+    Click vào Tìm Trường sẽ đến giao diện mới (kết quả các trường)
+    Click vào xem thêm sẽ đến giao diện chi tiết cho từng trường. (Các dữ liệu vẫn fix cứng nhé).
+    
+- Trong controller: AdvisoryController.java có đoạn comment. Code giải thuật ở đó hoặc nếu muốn rõ ràng nên viết 
+class trong tầng helper_layer, rồi từ chỗ đó gọi vào class helper đó. 
