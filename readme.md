@@ -224,9 +224,21 @@ mysqlimport --ignore-lines=1 --fields-terminated-by=, --columns='id,univ_code,un
 - Thêm Controller chartController: 
     http://localhost:8080/advisory/chart  (File: client/graph/chart.html - ông code trong file này nhé.)
     
-#### 30/11/2017
+#### 29/11/2017
 - Query distinct
     https://stackoverflow.com/questions/16915948/using-distinct-in-spring-data-over-multiple-columns
     
 - Check list empty thymeleaf:
     https://stackoverflow.com/questions/33106391/how-to-check-if-list-is-empty-using-thymeleaf
+    
+https://drive.google.com/file/d/1qwfzIj3TNbfJEnKJZqvEskhI3F0LAURu/view
+
+https://docs.google.com/spreadsheets/d/1Yy-nX08G4UgNyI_GlxNkyqaEQGOxdC1QhHABi4ZtqJM/edit#gid=631367577
+
+http://vietnamnet.vn/vn/giao-duc/tuyen-sinh/xet-tuyen-dai-hoc-so-sanh-chi-tiet-pho-diem-nam-2016-va-2017-382965.html
+
+https://docs.google.com/spreadsheets/d/1PbbOMf50mBpeOUteTR156ar_XSlYUNQ3-LstCjJS4Co/edit#gid=532991876
+
+
+#### 30/11/2017
+ 
