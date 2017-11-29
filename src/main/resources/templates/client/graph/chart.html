@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="client/layout :: head"></head>
+
+<!-- Custom style -->
+<link href="../../../static/css/client/advisory.css" th:href="@{/css/client/advisory.css}" rel="stylesheet"/>
+
+<!--Goi cac thu vien js can dung o day: /js/client/...-->
+
+
+<body>
+<div th:replace="client/layout :: user_taskbar"></div>
+
+<nav th:replace="client/layout :: header"></nav>
+
+<div class="container main-content">
+    <div class="row">
+        <div id="body_wrapper">
+
+            <div class="box_path">
+                <ul>
+                    <li>
+                        <a rel="nofollow" href="http://diemthi.tuyensinh247.com"> <span>Trang chủ</span></a>
+                    </li>
+                    >>
+                    <li>
+                        <a title="Tư vấn chọn trường" href="/tu-van-chon-truong.html">
+                            <span>Tư vấn chọn trường</span>
+                        </a>
+                    </li>
+                    >>
+                    <li>
+                        <a title=" Nhóm ngành Tài chính - Ngân hàng- Bảo hiểm">
+                            <span>Nhóm ngành Tài chính - Ngân hàng- Bảo hiểm</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div th:replace="client/layout :: left_sidebar"></div>
+
+            <div class="col-xs-12 col-md-8 col-lg-9 col_right">
+                <div class="top_content">
+                    Show chart here!
+                </div>
+
+                <!--
+                Ong co the code o day
+                -->
+
+            </div>
+
+        </div>
+    </div>
+</div><!-- /.container -->
+
+<footer th:replace="client/layout :: footer"></footer>
+</body>
+</html>

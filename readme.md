@@ -221,4 +221,5 @@ mysqlimport --ignore-lines=1 --fields-terminated-by=, --columns='id,univ_code,un
     https://stackoverflow.com/questions/5920135/printing-hashmap-in-java
     
     
-    
+- Thêm Controller chartController: 
+    http://localhost:8080/advisory/chart  (File: client/graph/chart.html - ông code trong file này nhé.)
