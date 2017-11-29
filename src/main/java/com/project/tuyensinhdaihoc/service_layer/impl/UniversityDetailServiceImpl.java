@@ -9,10 +9,7 @@ import com.project.tuyensinhdaihoc.data_access_layer.repository.UniversityDetail
 import com.project.tuyensinhdaihoc.helper_layer.utils.Algo;
 import com.project.tuyensinhdaihoc.helper_layer.utils.Calculate;
 import com.project.tuyensinhdaihoc.service_layer.UniversityDetailService;
-import com.project.tuyensinhdaihoc.web_layer.dto.CombinationVO;
-import com.project.tuyensinhdaihoc.web_layer.dto.SubjectScoreVO;
-import com.project.tuyensinhdaihoc.web_layer.dto.UniversityDetailVO;
-import com.project.tuyensinhdaihoc.web_layer.dto.UserInputVO;
+import com.project.tuyensinhdaihoc.web_layer.dto.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -52,6 +49,26 @@ public class UniversityDetailServiceImpl implements UniversityDetailService {
     @Override
     public List<String> findAllUnivGeographic() {
         return universityDetailRepo.findAllDistinctUniversityGeographic();
+    }
+
+    @Override
+    public List<String> findAllUnivName() {
+        return universityDetailRepo.findAllDistinctUniversityName();
+    }
+
+    @Override
+    public List<UnivNameVO> findAllUnivNameVO() {
+        List<UnivNameVO> univNameVOList = new ArrayList<>();
+        List<Object> listTemp = universityDetailRepo.findDistinctByUnivCodeAndUnivName();
+        int i = 0;
+        for (Object cdata: listTemp) {
+            i++;
+            Object[] obj= (Object[]) cdata;
+            String code = (String)obj[0];
+            String name = (String)obj[1];;
+            univNameVOList.add(new UnivNameVO(i, code, name, code + " - " + name));
+        }
+        return univNameVOList;
     }
 
 
@@ -124,13 +141,37 @@ public class UniversityDetailServiceImpl implements UniversityDetailService {
         //5. Run algorithms
         Integer[] outputResult = Algo.modelTOPSIS(arrayId, amountStudent, score, rank, mainSubject, Algo.oriWeight);
 
-        for(int j = 0; j < outputResult.length; j++) {
-            System.out.println(outputResult[j]);
+        //6. Show result
+        List<UniversityDetailVO> universityDetailVOList = new ArrayList<>();
+        for(int i = 0; i < outputResult.length; i++) {
+            for(UniversityDetail univDetail: universityDetailList) {
+                if(outputResult[i] == univDetail.getId()) {
+                    universityDetailVOList.add(new UniversityDetailVO(univDetail, (i+1)));
+                    break;
+                }
+            }
         }
 
-        //6. Show result
-
-        return null;
+        return universityDetailVOList;
     }
 
+    @Override
+    public List<UniversityDetailVO> findAllUniversityDetailVO() {
+        List<UniversityDetailVO> universityDetailVOList = new ArrayList<>();
+        List<UniversityDetail> universityDetailList = universityDetailRepo.findAll();
+        for(UniversityDetail univ: universityDetailList) {
+            universityDetailVOList.add(new UniversityDetailVO(univ, univ.getId()));
+        }
+        return universityDetailVOList;
+    }
+
+    @Override
+    public List<UniversityDetailVO> findAllUniversityDetailVOByUnivCode(String univCode) {
+        List<UniversityDetailVO> universityDetailVOList = new ArrayList<>();
+        List<UniversityDetail> universityDetailList = universityDetailRepo.findByUnivCode(univCode);
+        for(UniversityDetail univ: universityDetailList) {
+            universityDetailVOList.add(new UniversityDetailVO(univ, univ.getId()));
+        }
+        return universityDetailVOList;
+    }
 }
