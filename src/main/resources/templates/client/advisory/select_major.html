@@ -22,107 +22,13 @@
                     >>
                     <li>
                         <a title="Tư vấn chọn trường" href="/tu-van-chon-truong.html">
-                            <span>Tư vấn chọn trường</span>
-                        </a>
-                    </li>
-                    >>
-                    <li>
-                        <a title=" Nhóm ngành Tài chính - Ngân hàng- Bảo hiểm">
-                            <span>Nhóm ngành Tài chính - Ngân hàng- Bảo hiểm</span>
+                            <span>Hệ trợ giúp quyết định chọn trường.</span>
                         </a>
                     </li>
                 </ul>
             </div>
 
-            <div class="col-xs-12 col-md-4 col-lg-3 col_left">
-                <div class="portlet">
-                    <div class="portlet-content">
-                        <div class="title-blue">
-                            <span><strong>Đồng hành cùng bạn</strong></span>
-                        </div>
-                        <ul class="menu-left">
-                            <li class="nobor"><span><a title="Điểm chuẩn đại học"
-                                                       href="/diem-chuan.html">Điểm chuẩn đại học</a></span>
-                            </li>
-                            <li class="nobor"><span><a rel="nofollow" target="_blank"
-                                                       title="Thông tin trường ĐH-CĐ"
-                                                       href="http://diemthi.tuyensinh247.com/danh-sach-truong-dai-hoc-cao-dang.html">Thông tin trường ĐH-CĐ</a></span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="portlet">
-                    <div class="portlet-content">
-                        <ul class="list_style">
-                            <li class="nobor" rel="25"><span><a rel="nofollow" target="_blank"
-                                                                title="Đề thi thử THPT Quốc Gia 2017"
-                                                                href="http://tuyensinh247.com/khoa-599-de-thi-thu-thpt-qg-2017-cua-cac-truong-top-dau-tren-toan-quoc-co-loi-giai-chi-tiet-r204.html">Đề thi thử THPT Quốc Gia 2017</a></span>
-                            </li>
-                            <li class="nobor" rel="25"><span><a rel="nofollow" target="_blank"
-                                                                title="Video bài giảng hay"
-                                                                href="http://tuyensinh247.com/">Video bài giảng hay</a></span>
-                            </li>
-                            <li class="nobor" rel="25"><span><a title="Điểm thi THPT quốc gia 2017"
-                                                                href="/diem-thi-tot-nghiep-thpt.html">Điểm thi THPT quốc gia 2017</a></span>
-                            </li>
-                            <li class="nobor" rel="25"><span><a title="Điểm thi đại học"
-                                                                href="/diem-thi-dai-hoc.html">Điểm thi đại học</a></span>
-                            </li>
-                            <li class="nobor" rel="25"><span><a title="Điểm chuẩn đại học"
-                                                                href="/diem-chuan.html">Điểm chuẩn đại học</a></span>
-                            </li>
-                            <li class="nobor" rel="25"><span><a title="Điểm nguyện vọng 2"
-                                                                href="/diem-nguyen-vong-2.html">Điểm nguyện vọng 2</a></span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="portlet">
-                    <div class="portlet-content">
-                        <div class="col-left">
-                            <div class="box bottom10">
-                                <div class="title-blue">
-                                    <span><strong>Đang được quan tâm nhất</strong></span>
-                                </div>
-                                <ul class="menu-left">
-                                    <li>
-                <span>
-                    <a title="Phương án tuyến sinh 2017" target="_blank"
-                       href="http://tin.tuyensinh247.com/thi-dai-hoc-va-thi-thpt-quoc-gia-2017-e543.html">Phương án tuyến sinh 2017</a>
-                </span>
-                                    </li>
-                                    <li>
-                <span>
-                    <a title="Tư vẫn chọn trường ĐH, CĐ 2017" href="/tu-van-chon-truong.html">Tư vẫn chọn trường ĐH, CĐ 2017</a>
-                </span>
-                                    </li>
-                                    <li>
-                <span>
-                    <a title="Điểm chuẩn Đại học 2017" href="http://diemthi.tuyensinh247.com/diem-chuan.html">Điểm chuẩn Đại học 2017</a>
-                </span>
-                                    </li>
-                                    <li>
-                <span>
-                    <a title="Điểm thi THPT Quốc gia 2017"
-                       href="http://diemthi.tuyensinh247.com/diem-thi-tot-nghiep-thpt.html">Điểm thi THPT Quốc gia 2017</a>
-                </span>
-                                    </li>
-                                    <li class="nobor">
-                <span>
-                    <a title="Điểm thi lớp 10 2017" href="http://diemthi.tuyensinh247.com/diem-thi-vao-lop-10.html">Điểm thi lớp 10 2017</a>
-                </span>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
+            <div th:replace="client/layout :: left_sidebar"></div>
 
             <div class="col-xs-12 col-md-8 col-lg-9 col_right">
                 <div class="top_content">
@@ -140,17 +46,17 @@
 
                     <div id="form_input">
 
-                        <form class="form-horizontal" th:action="@{/advisory/select-major/save}" th:object="${advisory}" method="POST" novalidate="novalidate">
+                        <form class="form-horizontal" th:action="@{/advisory/select-major/save}" th:object="${userInputData}" method="POST" novalidate="novalidate">
                             <input type="hidden" th:field="*{id}"/>
 
                             <div class="form-group">
-                                <label class="control-label col-sm-5" for="mainGroup">Chọn nhóm ngành* : </label>
+                                <label class="control-label col-sm-5" for="branchName">Chọn ngành* : </label>
                                 <div class="col-sm-7">
-                                    <select class="form-control" th:field="*{mainGroup}" id="mainGroup">
-                                        <option th:each="group : ${allMainGroup}"
-                                                th:value="${group.id}"
-                                                th:text="${group.displayName}"
-                                                th:selected="(${group.id} == *{mainGroup})">
+                                    <select class="form-control" th:field="*{branchName}" id="branchName">
+                                        <option th:each="branch : ${branchList}"
+                                                th:value="${branch}"
+                                                th:text="${branch}"
+                                                th:selected="(${branch} == *{branchName})">
                                         </option>
                                     </select>
                                 </div>
@@ -158,13 +64,13 @@
 
 
                             <div class="form-group">
-                                <label class="control-label col-sm-5" for="examBlock">Chọn khối thi* : </label>
+                                <label class="control-label col-sm-5" for="univLevel">Chọn loại trường* : </label>
                                 <div class="col-sm-7">
-                                    <select class="form-control" th:field="*{examBlock}" id="examBlock">
-                                        <option th:each="exam : ${allExamBlock}"
-                                                th:value="${exam.id}"
-                                                th:text="${exam.displayName}"
-                                                th:selected="(${exam.id} == *{examBlock})">
+                                    <select class="form-control" th:field="*{univLevel}" id="univLevel">
+                                        <option th:each="level : ${univLevelList}"
+                                                th:value="${level}"
+                                                th:text="${level}"
+                                                th:selected="(${level} == *{univLevel})">
                                         </option>
                                     </select>
                                 </div>
@@ -172,68 +78,70 @@
 
 
                             <div class="form-group">
-                                <label class="control-label col-sm-5" for="levelUniversity">Chọn cấp độ trường (Đại học / Cao đẳng)* : </label>
+                                <label class="control-label col-sm-5">Nhập điểm các môn thi THPT Quốc Gia* : </label>
                                 <div class="col-sm-7">
-                                    <select class="form-control" th:field="*{levelUniversity}" id="levelUniversity">
-                                        <option th:each="uni : ${allLevelUniversity}"
-                                                th:value="${uni.id}"
-                                                th:text="${uni.displayName}"
-                                                th:selected="(${uni.id} == *{levelUniversity})">
+                                    <div class="col-sm-12 score_input_class" th:each="currentSubject, stat : ${userInputData.subjectScoreVOList}">
+                                        <div class="col-sm-6">
+                                            <input type="hidden" th:field="*{subjectScoreVOList[__${stat.index}__].id}" />
+                                            <select class="form-control" th:field="*{subjectScoreVOList[__${stat.index}__].subName}">
+                                                <option th:each="subj : ${subjectList}"
+                                                        th:value="${subj}"
+                                                        th:text="${subj}"
+                                                        th:selected="(${subj} == *{subjectScoreVOList[__${stat.index}__].subName})">
+                                                </option>
+                                            </select>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label class="control-label col-sm-6"> Điểm*: </label>
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" placeholder="8.42" th:field="*{subjectScoreVOList[__${stat.index}__].subScore}" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group col-xs-6">
+                                <label class="control-label col-sm-6" style="padding-left: 0!important;" for="priorityScore">Điểm ưu tiên đối tượng  : </label>
+                                <div class="col-sm-3">
+                                    <select class="form-control" th:field="*{priorityScore}" id="priorityScore">
+                                        <option th:each="pscore : ${priorityScoreList}"
+                                                th:value="${pscore}"
+                                                th:text="${pscore}"
+                                                th:selected="(${pscore} == *{priorityScore})">
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group col-xs-6">
+                                <label class="control-label col-sm-6" for="regionScore">Điểm ưu tiên khu vực : </label>
+                                <div class="col-sm-3">
+                                    <select class="form-control" th:field="*{regionScore}" id="regionScore">
+                                        <option th:each="rscore : ${regionScoreList}"
+                                                th:value="${rscore}"
+                                                th:text="${rscore}"
+                                                th:selected="(${rscore} == *{regionScore})">
                                         </option>
                                     </select>
                                 </div>
                             </div>
 
 
+
                             <div class="form-group">
-                                <label class="control-label col-sm-5" for="priority">Chọn độ ưu tiên* : </label>
+                                <label class="control-label col-sm-5" for="univRegion">Chọn tỉnh thành phố : </label>
                                 <div class="col-sm-7">
-                                    <select class="form-control" th:field="*{priority}" id="priority">
-                                        <option th:each="pri : ${allPriority}"
-                                                th:value="${pri.id}"
-                                                th:text="${pri.displayName}"
-                                                th:selected="(${pri.id} == *{priority})">
+                                    <select class="form-control" th:field="*{univRegion}" id="univRegion">
+                                        <option th:each="city : ${geographicList}"
+                                                th:value="${city}"
+                                                th:text="${city}"
+                                                th:selected="(${city} == *{univRegion})">
                                         </option>
                                     </select>
                                 </div>
                             </div>
-
-
-                            <div class="form-group">
-                                <label class="control-label col-sm-5" for="sumScore">Nhập tổng điểm của bạn* : </label>
-                                <div class="col-sm-7">
-                                    <input type="text" class="form-control" th:field="*{sumScore}" id="sumScore" placeholder="Nhập vào tổng điểm thi." />
-                                </div>
-                            </div>
-
-
-                            <div class="form-group">
-                                <label class="control-label col-sm-5" for="city">Chọn tỉnh thành phố : </label>
-                                <div class="col-sm-7">
-                                    <select class="form-control" th:field="*{city}" id="city">
-                                        <option th:each="cit : ${allCity}"
-                                                th:value="${cit.id}"
-                                                th:text="${cit.displayName}"
-                                                th:selected="(${cit.id} == *{city})">
-                                        </option>
-                                    </select>
-                                </div>
-                            </div>
-
-
-                            <div class="form-group">
-                                <label class="control-label col-sm-5" for="typeUniversity">Chọn Công lập / Dân lập : </label>
-                                <div class="col-sm-7">
-                                    <select class="form-control" th:field="*{typeUniversity}" id="typeUniversity">
-                                        <option th:each="typeUni : ${allTypeUniversity}"
-                                                th:value="${typeUni.id}"
-                                                th:text="${typeUni.displayName}"
-                                                th:selected="(${typeUni.id} == *{typeUniversity})">
-                                        </option>
-                                    </select>
-                                </div>
-                            </div>
-
 
                             <div class="btn_submit">
                                 <button type="submit" class="btn btn-warning">Tìm Trường</button>

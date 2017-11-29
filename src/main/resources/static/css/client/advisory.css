@@ -22,6 +22,11 @@
     margin: 40px;
 }
 
+#form_input .score_input_class {
+    padding: 0;
+    margin: 5px;
+}
+
 /* End Page: select_major.html */
 
 
