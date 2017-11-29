@@ -150,3 +150,75 @@ các class chính của project nên cứ để tạm đấy, khi nào tạo dat
     
 - Trong controller: AdvisoryController.java có đoạn comment. Code giải thuật ở đó hoặc nếu muốn rõ ràng nên viết 
 class trong tầng helper_layer, rồi từ chỗ đó gọi vào class helper đó. 
+
+#### 27/11/2017 
+- To hop mon thi: http://luyenthithptquocgia.com/cac-khoi-thi-xet-tuyen-dai-hoc-cao-dang-2017-a487.html
+- Xet tuyen bo sung: https://thituyensinh.vn/frontendTs/faces/TinTucBgdChiTiet?_adf.ctrl-state=18znej10dk_5&_afrLoop=20507704425108743
+- Rank 100: http://aum.edu.vn/tin-tuc/bang-xep-hang-cac-truong-dai-hoc-tot-nhat-viet-nam-nam-2017.html
+- World rank: http://www.hdcdgsnn.gov.vn/index.php/tin-tuc/tin-trong-nu-c/701-x-p-h-ng-trang-web-cac-tru-ng-d-i-h-c-vi-t-nam
+
+- Neu chua co bang: university_detail thi su dung lenh sau de tao table:
+
+```mysql
+SET  FOREIGN_KEY_CHECKS=0;
+
+DROP TABLE IF EXISTS university_detail;
+CREATE TABLE university_detail
+(
+  id              INTEGER(11)  NOT NULL AUTO_INCREMENT,
+  univ_code       NVARCHAR(64) NOT NULL,
+  univ_name         NVARCHAR(256) NOT NULL,
+  univ_level         NVARCHAR(64) DEFAULT 'Đại học' NOT NULL,
+  branch_name         NVARCHAR(256) NOT NULL,
+  branch_code          NVARCHAR(64) NOT NULL,
+  combination_code      NVARCHAR(256) NOT NULL,
+  amount_student           INTEGER(11) NOT NULL,
+  type_admission      NVARCHAR(64) DEFAULT 'Kết quả thi THPT QG' NOT NULL,
+  total_score       FLOAT(7,2) NOT NULL,
+  receive_time      TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  deadline_time     TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  geographic        NVARCHAR(256) DEFAULT 'Hà Nội' NOT NULL,
+  univ_rank    INTEGER(11) DEFAULT 101 NOT NULL,
+  created_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (id)
+)
+  ENGINE = InnoDB DEFAULT CHARSET=utf8;
+
+SET  FOREIGN_KEY_CHECKS=1;
+```
+
+- Sau khi tạo được bảng thì mở terminal và import dữ liệu từ file csv.
+```mysql
+
+mysqlimport --ignore-lines=1 --fields-terminated-by=, --columns='id,univ_code,univ_name,univ_level,branch_name,branch_code,combination_code,amount_student,type_admission,total_score,receive_time,deadline_time,geographic,univ_rank' --local -u root -p tsdh ~/path/university_detail.csv
+
+```
+
+
+
+- Thymeleaf List in form: https://stackoverflow.com/questions/36500731/how-to-bind-an-object-list-with-thymeleaf
+
+- Loi ko search duoc vietnamese trong hibernate: 
+    spring.datasource.url=jdbc:mysql://localhost:3306/tsdh?useSSL=false&characterEncoding=utf8
+    
+ https://kipalog.com/posts/Cach-tim-kiem-co-dau-tren-Mysql---Search-utf8-on-Mysql
+    https://stackoverflow.com/questions/21456494/spring-jpa-query-with-like
+    https://stackoverflow.com/questions/27626825/spring-data-jpa-query-by-example
+    https://docs.spring.io/spring-data/jpa/docs/current/reference/html/
+    
+- Matrix java: 
+    https://introcs.cs.princeton.edu/java/95linear/Matrix.java.html
+    
+- Array java
+    https://stackoverflow.com/questions/6537589/best-way-to-copy-from-one-array-to-another
+    
+- Get keys of hashmap
+    https://stackoverflow.com/questions/6589744/how-to-return-a-list-of-keys-from-a-hash-map
+- Convert set to array
+    http://www.baeldung.com/convert-array-to-set-and-set-to-array
+- Hashmap:
+    https://stackoverflow.com/questions/5920135/printing-hashmap-in-java
+    
+    
+    
