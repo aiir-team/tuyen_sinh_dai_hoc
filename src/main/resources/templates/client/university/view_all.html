@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="client/layout :: head"></head>
+
+<!-- Custom style -->
+<link href="../../../static/css/client/advisory.css" th:href="@{/css/client/advisory.css}" rel="stylesheet"/>
+
+<body>
+<div th:replace="client/layout :: user_taskbar"></div>
+
+<nav th:replace="client/layout :: header"></nav>
+
+<div class="container main-content">
+    <div class="row">
+        <div id="body_wrapper">
+
+            <div class="box_path">
+                <ul>
+                    <li>
+                        <a rel="nofollow" th:href="@{/}"> <span>Trang chủ</span></a>
+                    </li>
+                    >>
+                    <li>
+                        <a title="Tư vấn chọn trường" th:href="@{/advisory/select-major}">
+                            <span>Tư vấn chọn trường</span>
+                        </a>
+                    </li>
+                    >>
+                    <li>
+                        <a>
+                            <span>Kết quả các trường bổ sung</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-xs-12">
+                <div class="top_content">
+                    Thông tin toàn bộ các trường có nguyện vọng bổ sung.
+                </div>
+
+                <div class="main_content">
+                    <div id="result_output" >
+                        <table width="100%" cellspacing="0" cellpadding="0" class="table table-striped table-bordered table-hover table-condensed">
+                            <thead>
+                                <tr>
+                                    <th width="5%" class="text-center"><strong>STT</strong></th>
+                                    <th width="5%" class="text-center"><strong>Mã trường</strong></th>
+                                    <th width="25%" class="text-center"><strong>Tên trường</strong></th>
+
+                                    <th width="15%" class="text-center"><strong>Tên ngành</strong></th>
+                                    <th width="10%" class="text-center"><strong>Mã ngành</strong></th>
+
+                                    <th width="5%" class="text-center"><strong>Mã Tổ Hợp</strong></th>
+                                    <th width="5%" class="text-center"><strong>Bổ sung(SV)</strong></th>
+                                    <th width="5%" class="text-center"><strong>Tổng điểm</strong></th>
+                                    <th width="5%" class="text-center"><strong>Rank trường</strong></th>
+
+                                    <th width="10%" class="text-center"><strong>Thời gian nộp</strong></th>
+                                    <th width="10%" class="text-center"><strong>Thời gian kết thúc</strong></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            <tr th:each="univVO,stat : ${universityDetailVOList}">
+                                <td>
+                                    <span th:text="${univVO.order}"></span>
+                                </td>
+                                <td>
+                                    <span th:text="${univVO.univCode}"></span>
+                                </td>
+                                <td>
+                                    <span th:text="${univVO.univName}"></span>
+                                </td>
+                                <td>
+                                    <span th:text="${univVO.branName}"></span>
+                                </td>
+                                <td>
+                                    <span th:text="${univVO.branCode}"></span>
+                                </td>
+                                <td>
+                                    <span th:text="${univVO.combCode}"></span>
+                                </td>
+
+                                <td>
+                                    <span th:text="${univVO.amountStudent}"></span>
+                                </td>
+                                <td>
+                                    <span th:text="${univVO.totalScore}"></span>
+                                </td>
+                                <td>
+                                    <span th:text="${univVO.univRank}"></span>
+                                </td>
+
+                                <td>
+                                    <span th:text="${#dates.format(univVO.receiveTime, 'dd-MM-YYYY')}"></span>
+                                </td>
+                                <td>
+                                    <span th:text="${#dates.format(univVO.deadlineTime, 'dd-MM-YYYY')}"></span>
+                                </td>
+
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="bottom_content" align="center">
+                    Tư vấn chọn trường đại học cao đẳng, chọn ngành học theo khối thi: A,A1,B,C,D...bằng cách nhập
+                    số điểm bạn có thể đạt được và khối thi bạn dự thi. KSTN CNTT Group chúc bạn lựa chọn được trường như ý.
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div><!-- /.container -->
+
+<footer th:replace="client/layout :: footer"></footer>
+</body>
+</html>
