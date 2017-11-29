@@ -1,6 +1,8 @@
 package com.project.tuyensinhdaihoc.web_layer.dto;
 
-import java.sql.Date;
+import com.project.tuyensinhdaihoc.data_access_layer.model.UniversityDetail;
+
+import java.sql.Timestamp;
 
 public class UniversityDetailVO {
     private Integer id;
@@ -13,16 +15,16 @@ public class UniversityDetailVO {
     private String combCode;
     private Integer amountStudent;
     private String typeAdmission;
-    private Integer totalScore;
-    private Date receiveTime;
-    private Date deadlineTime;
+    private Double totalScore;
+    private Timestamp receiveTime;
+    private Timestamp deadlineTime;
     private String geographic;
     private Integer univRank;
 
     public UniversityDetailVO() {
     }
 
-    public UniversityDetailVO(Integer id, Integer order, String univCode, String univName, String univLevel, String branName, String branCode, String combCode, Integer amountStudent, String typeAdmission, Integer totalScore, Date receiveTime, Date deadlineTime, String geographic, Integer univRank) {
+    public UniversityDetailVO(Integer id, Integer order, String univCode, String univName, String univLevel, String branName, String branCode, String combCode, Integer amountStudent, String typeAdmission, Double totalScore, Timestamp receiveTime, Timestamp deadlineTime, String geographic, Integer univRank) {
         this.id = id;
         this.order = order;
         this.univCode = univCode;
@@ -38,6 +40,23 @@ public class UniversityDetailVO {
         this.deadlineTime = deadlineTime;
         this.geographic = geographic;
         this.univRank = univRank;
+    }
+
+    public UniversityDetailVO(UniversityDetail univDetail, int order) {
+        this.setId(univDetail.getId());
+        this.setOrder(order);
+        this.setUnivCode(univDetail.getUnivCode());
+        this.setUnivName(univDetail.getUnivName());
+        this.setBranName(univDetail.getBranchName());
+        this.setBranCode(univDetail.getBranchCode());
+        this.setCombCode(univDetail.getCombinationCode());
+        this.setAmountStudent(univDetail.getAmountStudent());
+        this.setTypeAdmission(univDetail.getTypeAdmission());
+        this.setTotalScore(univDetail.getTotalScore());
+        this.setGeographic(univDetail.getGeographic());
+        this.setUnivRank(univDetail.getUnivRank());
+        this.setReceiveTime(univDetail.getReceiveTime());
+        this.setDeadlineTime(univDetail.getDeadlineTime());
     }
 
     public Integer getId() {
@@ -120,27 +139,27 @@ public class UniversityDetailVO {
         this.typeAdmission = typeAdmission;
     }
 
-    public Integer getTotalScore() {
+    public Double getTotalScore() {
         return totalScore;
     }
 
-    public void setTotalScore(Integer totalScore) {
+    public void setTotalScore(Double totalScore) {
         this.totalScore = totalScore;
     }
 
-    public Date getReceiveTime() {
+    public Timestamp getReceiveTime() {
         return receiveTime;
     }
 
-    public void setReceiveTime(Date receiveTime) {
+    public void setReceiveTime(Timestamp receiveTime) {
         this.receiveTime = receiveTime;
     }
 
-    public Date getDeadlineTime() {
+    public Timestamp getDeadlineTime() {
         return deadlineTime;
     }
 
-    public void setDeadlineTime(Date deadlineTime) {
+    public void setDeadlineTime(Timestamp deadlineTime) {
         this.deadlineTime = deadlineTime;
     }
 

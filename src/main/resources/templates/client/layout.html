@@ -153,11 +153,12 @@
                 <img th:src="@{/img/logo_page.png}" alt="" />
             </div>
 
-            <div id="nav_right" class="col-xs-7 col-md-offset-2 col-md-6 col-lg-offset-3 col-lg-6">
+            <div id="nav_right" class="col-xs-7 col-md-8 col-lg-9">
                 <ul>
-                    <li><a href="">Điểm chuẩn đại học</a></li>
-                    <li><a href="">Tư vấn chọn trường</a></li>
-                    <li><a href="">Tư vấn chọn ngành</a></li>
+                    <li><a th:href="@{/advisory/select-major}">Tư vấn chọn trường và ngành</a></li>
+                    <li><a th:href="@{/university/all}">Xem thông tin các trường bổ sung</a></li>
+                    <li><a th:href="@{/university/search}">Xem chi tiết bổ sung một trường </a></li>
+                    <li><a th:href="@{/advisory/chart}">Xem phổ điểm</a></li>
                 </ul>
             </div>
         </div>

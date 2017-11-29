@@ -1,7 +1,6 @@
 package com.project.tuyensinhdaihoc.service_layer;
 
-import com.project.tuyensinhdaihoc.data_access_layer.model.Subject;
-import com.project.tuyensinhdaihoc.data_access_layer.model.UniversityDetail;
+import com.project.tuyensinhdaihoc.web_layer.dto.UnivNameVO;
 import com.project.tuyensinhdaihoc.web_layer.dto.UniversityDetailVO;
 import com.project.tuyensinhdaihoc.web_layer.dto.UserInputVO;
 
@@ -15,5 +14,14 @@ public interface UniversityDetailService {
 
     List<String> findAllUnivGeographic();
 
+    List<String> findAllUnivName();
+
+    List<UnivNameVO> findAllUnivNameVO();
+
     List<UniversityDetailVO> HTGQDBasedOn(UserInputVO userInputVO);
+
+    List<UniversityDetailVO> findAllUniversityDetailVO();
+
+    List<UniversityDetailVO> findAllUniversityDetailVOByUnivCode(String univCode);
+
 }

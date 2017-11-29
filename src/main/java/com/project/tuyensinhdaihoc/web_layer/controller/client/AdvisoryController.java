@@ -24,14 +24,6 @@ import java.util.List;
 @SessionScope
 public class AdvisoryController extends BaseController {
 
-
-    private List<MainGroupVO> allMainGroup;
-    private List<ExamBlockVO> allExamBlock;
-    private List<UniLevelVO> allLevelUniversity;
-    private List<PriorityVO> allPriority;
-    private List<CityVO> allCity;
-    private List<UniTypeVO> allTypeUniversity;
-
     private List<String> branchList;
     private List<String> univLevelList;
     private List<String> subjectList;
@@ -51,16 +43,6 @@ public class AdvisoryController extends BaseController {
 
     @GetMapping("/select-major")
     public String selectMajor(Model model) {
-        /*
-        model.addAttribute("allMainGroup", getAllMainGroup());
-        model.addAttribute("allExamBlock", getAllExamBlock());
-        model.addAttribute("allLevelUniversity", getAllLevelUniversity());
-        model.addAttribute("allPriority", getAllPriority());
-        model.addAttribute("allCity", getAllCity());
-        model.addAttribute("allTypeUniversity", getAllTypeUniversity());
-            //Add form object to html page. Auto map : attribute with field in html
-        model.addAttribute("advisory", new AdvisoryVO());
-        */
 
         model.addAttribute("branchList", getBranchList());
         model.addAttribute("univLevelList", getUnivLevelList());
@@ -86,44 +68,14 @@ public class AdvisoryController extends BaseController {
             return "redirect:/advisory/select-major";
         }
 
-        /* Filter data based on: univLevel, univRegion */
-        universityDetailService.HTGQDBasedOn(userInputVO);
-
         /* Code giai thuat se nam o day. */
-
+        List<UniversityDetailVO> universityDetailVOList = universityDetailService.HTGQDBasedOn(userInputVO);
         /* End */
 
-
         /* Add cac model ket qua vao day, roi truyen ra ngoai page*/
+        model.addAttribute("universityDetailVOList", universityDetailVOList);
         return "client/advisory/result_university";
     }
-
-
-
-    public List<MainGroupVO> getAllMainGroup() {
-        return InitialData.getAllMainGroup();
-    }
-
-    public List<ExamBlockVO> getAllExamBlock() {
-        return InitialData.getAllExamBlock();
-    }
-
-    public List<UniLevelVO> getAllLevelUniversity() {
-        return InitialData.getAllLevelUniversity();
-    }
-
-    public List<PriorityVO> getAllPriority() {
-        return InitialData.getAllPriority();
-    }
-
-    public List<CityVO> getAllCity() {
-        return InitialData.getAllCity();
-    }
-
-    public List<UniTypeVO> getAllTypeUniversity() {
-        return InitialData.getAllTypeUniversity();
-    }
-
 
 
     public List<String> getBranchList(){

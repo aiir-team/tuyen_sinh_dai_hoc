@@ -21,13 +21,16 @@ public interface UniversityDetailRepo extends JpaRepository<UniversityDetail, In
     @Query("SELECT DISTINCT ud.geographic FROM UniversityDetail ud")
     List<String> findAllDistinctUniversityGeographic();
 
-    @Query("SELECT ud FROM UniversityDetail ud WHERE ud.univLevel = ?1 AND ud.geographic = ?2")
-    List<UniversityDetail> findAllByUnivLevelAndGeographic(String univLevel, String city);
+    @Query("SELECT DISTINCT ud.univCode, ud.univName FROM UniversityDetail ud GROUP BY ud.univName, ud.univCode")
+    List<Object> findDistinctByUnivCodeAndUnivName();
+
+    List<UniversityDetail> findByUnivCode(String univCode);
 
     List<UniversityDetail> findAllByUnivLevelAndGeographicAndCombinationCodeAndTotalScoreLessThan
             (String univLevel, String city, String combCode, Double totalScore);
 
-
+    @Query("SELECT ud FROM UniversityDetail ud WHERE ud.univLevel = ?1 AND ud.geographic = ?2")
+    List<UniversityDetail> findAllByUnivLevelAndGeographic(String univLevel, String city);
 
     List<UniversityDetail> findByUnivLevelLike(String uniType);
 
@@ -44,7 +47,5 @@ public interface UniversityDetailRepo extends JpaRepository<UniversityDetail, In
 
     @Query("SELECT ud FROM UniversityDetail ud WHERE ud.typeAdmission LIKE CONCAT('%',:typeadmission,'%')")
     List<UniversityDetail> findUniversityDetailByTypeAdmission(@Param("typeadmission") String typeadmission);
-
-
 }
 

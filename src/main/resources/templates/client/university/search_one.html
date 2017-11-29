@@ -28,23 +28,45 @@
                     >>
                     <li>
                         <a>
-                            <span>Kết quả gợi ý chọn trường</span>
+                            <span>Xem thông tin bổ sung chi tiết của trường</span>
                         </a>
                     </li>
                 </ul>
             </div>
 
             <div class="col-xs-12">
-                <div class="top_content">
-                    Tư vấn chọn trường đại học, cao đẳng năm 2017
+
+                <form th:action="@{/university/search/save}" class="form-horizontal" method="post">
+
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="univCode">Chọn trường* : </label>
+                        <div class="col-sm-7">
+                            <select class="form-control" name="univCode" id="univCode">
+                                <option value="" th:disabled="disabled" selected="true">Chọn trường dưới đây.</option>
+                                <option th:each="univ : ${univNameVOList}"
+                                        th:value="${univ.code}"
+                                        th:text="${univ.displayName}"
+                                        th:selected="(${univCode} == *{univ.code})">
+                                </option>
+                            </select>
+                        </div>
+                        <div class="col-sm-3">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+
+
+                </form>
+
+                <div class="main_content" th:if="${#lists.isEmpty(universityDetailVOList)}">
+                    <div class="explain_section">
+                        Bạn phải chọn trường sau đó ấn submit để xem thông tin bổ sung chi tiết của trường đó.
+                    </div>
                 </div>
 
-                <div class="main_content">
-                    <div class="title_section">
-                        Kết quả trợ giúp chọn trường
-                    </div>
+                <div class="main_content" th:if="${not #lists.isEmpty(universityDetailVOList)}">
                     <div class="explain_section">
-                        Danh sách các trường hệ trợ giúp đưa ra giúp bạn, sắp xếp theo thứ tự từ trên xuống.
+                        Thông tin bổ sung của trường. <span style="color: red" th:text="${univDisplay}"></span>
                     </div>
 
                     <div id="result_output" >
@@ -52,16 +74,13 @@
                             <thead>
                                 <tr>
                                     <th width="5%" class="text-center"><strong>STT</strong></th>
-                                    <th width="5%" class="text-center"><strong>Mã trường</strong></th>
-                                    <th width="25%" class="text-center"><strong>Tên trường</strong></th>
-
-                                    <th width="15%" class="text-center"><strong>Tên ngành</strong></th>
+                                    <th width="25%" class="text-center"><strong>Tên ngành</strong></th>
                                     <th width="10%" class="text-center"><strong>Mã ngành</strong></th>
 
-                                    <th width="5%" class="text-center"><strong>Mã Tổ Hợp</strong></th>
-                                    <th width="5%" class="text-center"><strong>Bổ sung(SV)</strong></th>
-                                    <th width="5%" class="text-center"><strong>Tổng điểm</strong></th>
-                                    <th width="5%" class="text-center"><strong>Rank trường</strong></th>
+                                    <th width="10%" class="text-center"><strong>Mã Tổ Hợp</strong></th>
+                                    <th width="10%" class="text-center"><strong>Bổ sung(SV)</strong></th>
+                                    <th width="10%" class="text-center"><strong>Tổng điểm</strong></th>
+                                    <th width="10%" class="text-center"><strong>Rank trường</strong></th>
 
                                     <th width="10%" class="text-center"><strong>Thời gian nộp</strong></th>
                                     <th width="10%" class="text-center"><strong>Thời gian kết thúc</strong></th>
@@ -71,13 +90,7 @@
 
                             <tr th:each="univVO,stat : ${universityDetailVOList}">
                                 <td>
-                                    <span th:text="${univVO.order}"></span>
-                                </td>
-                                <td>
-                                    <span th:text="${univVO.univCode}"></span>
-                                </td>
-                                <td>
-                                    <span th:text="${univVO.univName}"></span>
+                                    <span th:text="${stat.index + 1}"></span>
                                 </td>
                                 <td>
                                     <span th:text="${univVO.branName}"></span>
