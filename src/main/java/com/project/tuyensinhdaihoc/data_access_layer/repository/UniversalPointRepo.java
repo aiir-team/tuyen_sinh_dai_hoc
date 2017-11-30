@@ -14,7 +14,7 @@ public interface UniversalPointRepo extends JpaRepository<UniversalPoint, Intege
 
     List<UniversalPoint> findById(Integer id);
 
-    @Query("SELECT DISTINCT up.block_name FROM UniversalPoint up")
+    @Query("SELECT DISTINCT up.blockName FROM UniversalPoint up")
     List<String> findAllBlockName();
 
     List<UniversalPoint> findByBlockName(String blockName);

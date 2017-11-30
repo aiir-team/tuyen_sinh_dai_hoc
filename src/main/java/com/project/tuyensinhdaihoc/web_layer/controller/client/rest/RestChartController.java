@@ -26,7 +26,7 @@ public class RestChartController {
         return universalPointService.findUniversalPointById(id);
     }
 
-    @RequestMapping(value = "/chart",method = RequestMethod.GET)
+    @RequestMapping(value = "/chart/label/",method = RequestMethod.GET)
     public List<UniversalPointVO> getListChartByBlockName(@RequestParam String blockName){
         return universalPointService.findUniversalPointByBlockName(blockName);
     }
