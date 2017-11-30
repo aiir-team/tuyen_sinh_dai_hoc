@@ -5,8 +5,6 @@ import java.util.stream.IntStream;
 
 public class Algo {
 
-    public static int oriWeight[] = {10, 8, 6, 6};    // amount_student, score, rank, main_subject
-
     private static double[] normalizeWeight(int weight[]) {
         double temp[] = new double[weight.length];
         int sum = IntStream.of(weight).sum();

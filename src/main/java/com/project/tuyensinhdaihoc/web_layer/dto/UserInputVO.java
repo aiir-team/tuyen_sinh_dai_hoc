@@ -22,6 +22,8 @@ public class UserInputVO {
     private Integer univRank;
     private Integer wRank;
 
+    private List<WeightVO> weightVOList;         // amount_student, score, rank, main_subject
+
     public UserInputVO() {
         this.wBranch = 7;
         this.wTotalScore = 9;
@@ -43,6 +45,23 @@ public class UserInputVO {
         this.wRegion = wRegion;
         this.univRank = univRank;
         this.wRank = wRank;
+    }
+
+    public UserInputVO(Integer id, String branchName, Integer wBranch, String univLevel, List<SubjectScoreVO> subjectScoreVOList, Double regionScore, Double priorityScore, Double totalScore, Integer wTotalScore, String univRegion, Integer wRegion, Integer univRank, Integer wRank, List<WeightVO> weightVOList) {
+        this.id = id;
+        this.branchName = branchName;
+        this.wBranch = wBranch;
+        this.univLevel = univLevel;
+        this.subjectScoreVOList = subjectScoreVOList;
+        this.regionScore = regionScore;
+        this.priorityScore = priorityScore;
+        this.totalScore = totalScore;
+        this.wTotalScore = wTotalScore;
+        this.univRegion = univRegion;
+        this.wRegion = wRegion;
+        this.univRank = univRank;
+        this.wRank = wRank;
+        this.weightVOList = weightVOList;
     }
 
     public Integer getId() {
@@ -147,5 +166,14 @@ public class UserInputVO {
 
     public void setwRank(Integer wRank) {
         this.wRank = wRank;
+    }
+
+
+    public List<WeightVO> getWeightVOList() {
+        return weightVOList;
+    }
+
+    public void setWeightVOList(List<WeightVO> weightVOList) {
+        this.weightVOList = weightVOList;
     }
 }

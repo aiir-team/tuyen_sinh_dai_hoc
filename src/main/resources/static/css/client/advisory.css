@@ -27,6 +27,16 @@
     margin: 5px;
 }
 
+#form_input #block_advanced {
+    border: 2px solid gray;
+    padding: 10px;
+    display: none;
+}
+
+#form_input .score_weight {
+    margin: 10px;
+    overflow: auto;
+}
 /* End Page: select_major.html */
 
 

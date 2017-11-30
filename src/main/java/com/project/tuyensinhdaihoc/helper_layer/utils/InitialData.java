@@ -1,5 +1,6 @@
 package com.project.tuyensinhdaihoc.helper_layer.utils;
 
+import com.project.tuyensinhdaihoc.web_layer.dto.WeightVO;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -89,6 +90,24 @@ public class InitialData {
         temp.add(0.5);
         temp.add(1.0);
         temp.add(1.5);
+        return temp;
+    }
+
+
+    public static List<WeightVO> initSetOfWeights() {        // amount_student, score, rank, main_subject: 10, 8, 6, 6
+        List<WeightVO> weightVOList = new ArrayList<>();
+        weightVOList.add(new WeightVO(1, "Số lượng thí sinh bổ sung", 10));
+        weightVOList.add(new WeightVO(2, "Điểm được tuyển", 8));
+        weightVOList.add(new WeightVO(3, "Xếp hạng của trường", 6));
+        weightVOList.add(new WeightVO(4, "Môn chính", 6));
+        return weightVOList;
+    }
+
+    public static List<Integer> initWeightList() {
+        List<Integer> temp = new ArrayList<>();
+        for(int i = 0; i < 10; i++) {
+            temp.add(i+1);
+        }
         return temp;
     }
 

@@ -143,8 +143,37 @@
                                 </div>
                             </div>
 
+
+
+
+                            <div class="form-group" id="block_advanced">
+                                <label class="control-label col-sm-12">
+                                    Nhập hệ số cho tham số cho hệ thống (Giá trị độ ưu tiên, độ ưu tiên càng cao thì càng quan trọng, và có giá trị từ [1, 10])
+                                </label>
+                                <div class="col-sm-12">
+                                    <div class="score_weight" th:each="wName, stat : ${userInputData.weightVOList}">
+                                        <input type="hidden" th:field="*{weightVOList[__${stat.index}__].id}" />
+                                        <label class="control-label col-sm-6"> <span th:text="*{weightVOList[__${stat.index}__].name}"></span> : </label>
+
+                                        <div class="col-sm-6">
+                                            <select class="form-control" th:field="*{weightVOList[__${stat.index}__].weight}">
+                                                <option th:each="wegh : ${weightList}"
+                                                        th:value="${wegh}"
+                                                        th:text="${wegh}"
+                                                        th:selected="(${wegh} == *{weightVOList[__${stat.index}__].weight})">
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
                             <div class="btn_submit">
                                 <button type="submit" class="btn btn-warning">Tìm Trường</button>
+                                <a id="btn_advanced">Tìm kiếm nâng cao</a>
                             </div>
                         </form>
 
@@ -162,5 +191,16 @@
 </div><!-- /.container -->
 
 <footer th:replace="client/layout :: footer"></footer>
+
+<script type="text/javascript" th:inline="javascript">
+    /*<![CDATA[*/
+    $(function () {
+        $("#btn_advanced").click(function(){
+            $("#block_advanced").toggle();
+        });
+    });
+    /*]]>*/
+</script>
+
 </body>
 </html>
