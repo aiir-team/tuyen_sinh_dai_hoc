@@ -1,5 +1,7 @@
 package com.project.tuyensinhdaihoc.helper_layer.utils;
 
+import com.project.tuyensinhdaihoc.web_layer.dto.result.InputVectorVO;
+
 import java.util.*;
 import java.util.stream.IntStream;
 
@@ -48,7 +50,18 @@ public class Algo {
         return vector;
     }
 
-    public static Integer[] modelTOPSIS(int[] arrayId, double[] amountStudent, double[] score, double[] rank, double[] mainSubject, int vecWeight[]) {
+    public static HashMap<Integer, InputVectorVO> modelTOPSIS(int[] arrayId, double[] amountStudent, double[] score, double[] rank, double[] mainSubject, int vecWeight[]) {
+
+        double[] oldAmount = new double[amountStudent.length];
+        double[] oldScore = new double[score.length];
+        double[] oldRank = new double[rank.length];
+        double[] prob = new double[mainSubject.length];
+        for(int i = 0; i < amountStudent.length; i++) {
+            oldAmount[i] = amountStudent[i];
+            oldScore[i] = score[i];
+            oldRank[i] = rank[i];
+            prob[i] = mainSubject[i];
+        }
 
         //1. Normalize vector weights
         double[] vectorWeight = normalizeWeight(vecWeight);
@@ -108,6 +121,11 @@ public class Algo {
             hmap.put(arrayId[j], c_star_old[j]);
         }
 
+        HashMap<Integer, InputVectorVO> mapOutput = new HashMap<>();
+        for(int j = 0; j < inputSize; j++) {
+            InputVectorVO inputVectorVO = new InputVectorVO( (int) oldAmount[j], (int)oldScore[j], (int)oldRank[j], prob[j], c_star[j]);
+            mapOutput.put(arrayId[j], inputVectorVO);
+        }
 
         Object[] a = hmap.entrySet().toArray();
         Arrays.sort(a, (Comparator) (o1, o2) -> ((Map.Entry<Integer, Double>) o2).getValue()
@@ -116,16 +134,27 @@ public class Algo {
         Integer[] keys = new Integer[a.length];
         Double[] values = new Double[a.length];
 
+
+        HashMap<Integer, InputVectorVO> newMap = new HashMap<>();
+
         for (int j = 0; j < a.length; j++) { //Object e : a) {
 
             keys[j] = ((Map.Entry<Integer, Double>) a[j]).getKey();
             values[j] = ((Map.Entry<Integer, Double>) a[j]).getValue();
 
+            for(Integer ix: mapOutput.keySet()) {
+                if(keys[j] == ix) {
+                    newMap.put(ix, mapOutput.get(ix));
+                    break;
+                }
+            }
+
             System.out.println(((Map.Entry<Integer, Double>) a[j]).getKey() + " : "
                     + ((Map.Entry<Integer, Double>) a[j]).getValue());
         }
 
-        return keys;
+
+        return newMap;
     }
 
 }
