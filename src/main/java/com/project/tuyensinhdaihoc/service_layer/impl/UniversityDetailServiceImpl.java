@@ -11,12 +11,10 @@ import com.project.tuyensinhdaihoc.helper_layer.utils.Calculate;
 import com.project.tuyensinhdaihoc.service_layer.UniversalPointService;
 import com.project.tuyensinhdaihoc.service_layer.UniversityDetailService;
 import com.project.tuyensinhdaihoc.web_layer.dto.*;
-import com.project.tuyensinhdaihoc.web_layer.dto.result.InputVectorVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 @Service
@@ -54,11 +52,6 @@ public class UniversityDetailServiceImpl implements UniversityDetailService {
     @Override
     public List<String> findAllUnivGeographic() {
         return universityDetailRepo.findAllDistinctUniversityGeographic();
-    }
-
-    @Override
-    public List<String> findAllUnivName() {
-        return universityDetailRepo.findAllDistinctUniversityName();
     }
 
     @Override
@@ -169,12 +162,12 @@ public class UniversityDetailServiceImpl implements UniversityDetailService {
         }
 
         //5. Run algorithms
-        HashMap<Integer, InputVectorVO> outputResult = Algo.modelTOPSIS(arrayId, amountStudent, score, rank, mainSubject, weights);
+        ArrayList<Integer> outputResult = Algo.modelTOPSIS(arrayId, amountStudent, score, rank, mainSubject, weights);
 
         //6. Show result
         List<UniversityDetailVO> universityDetailVOList = new ArrayList<>();
         int i = 0;
-        for(Integer ix: outputResult.keySet()) {
+        for(Integer ix: outputResult) {
             for(UniversityDetail univDetail: universityDetailList) {
                 if(ix == univDetail.getId()) {
                     universityDetailVOList.add(new UniversityDetailVO(univDetail, (i+1)));

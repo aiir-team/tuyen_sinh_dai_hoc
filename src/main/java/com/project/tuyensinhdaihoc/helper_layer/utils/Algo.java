@@ -50,7 +50,7 @@ public class Algo {
         return vector;
     }
 
-    public static HashMap<Integer, InputVectorVO> modelTOPSIS(int[] arrayId, double[] amountStudent, double[] score, double[] rank, double[] mainSubject, int vecWeight[]) {
+    public static ArrayList<Integer> modelTOPSIS(int[] arrayId, double[] amountStudent, double[] score, double[] rank, double[] mainSubject, int vecWeight[]) {
 
         double[] oldAmount = new double[amountStudent.length];
         double[] oldScore = new double[score.length];
@@ -113,6 +113,7 @@ public class Algo {
             c_star[i] = sb / (ss + sb);
         }
 
+
         // Sort result
         Double[] c_star_old = Arrays.copyOf(c_star, c_star.length);
 
@@ -135,7 +136,8 @@ public class Algo {
         Double[] values = new Double[a.length];
 
 
-        HashMap<Integer, InputVectorVO> newMap = new HashMap<>();
+        ArrayList<Integer> newMap = new ArrayList<>();
+
 
         for (int j = 0; j < a.length; j++) { //Object e : a) {
 
@@ -144,7 +146,7 @@ public class Algo {
 
             for(Integer ix: mapOutput.keySet()) {
                 if(keys[j] == ix) {
-                    newMap.put(ix, mapOutput.get(ix));
+                    newMap.add(ix);
                     break;
                 }
             }

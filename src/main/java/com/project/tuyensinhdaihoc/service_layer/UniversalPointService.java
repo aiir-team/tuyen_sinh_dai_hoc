@@ -8,8 +8,6 @@ import java.util.List;
 public interface UniversalPointService {
     List<UniversalPointVO> findAllUniversalPointVO();
 
-    List<String> findAllLabelBlockName();
-
     List<UniversalPointVO> findUniversalPointById(Integer id);
 
     List<UniversalPointVO> findUniversalPointByBlockName(String blockName);

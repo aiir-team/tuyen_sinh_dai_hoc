@@ -1,12 +1,12 @@
 package com.project.tuyensinhdaihoc.helper_layer.utils;
 
-import com.project.tuyensinhdaihoc.web_layer.dto.CombinationVO;
 import com.project.tuyensinhdaihoc.web_layer.dto.SubjectScoreVO;
 import com.project.tuyensinhdaihoc.web_layer.dto.UserInputVO;
+import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class Calculate {
 
     /*
@@ -41,18 +41,5 @@ public class Calculate {
         }
         return value;
     }
-
-//    public static Double getTotalScore(UserInputVO userInputVO) {
-//        List<SubjectScoreVO> subjectScoreVOList = userInputVO.getSubjectScoreVOList();
-//        Double finalScore = 0.0;
-//        for(SubjectScoreVO sub: subjectScoreVOList) {
-//            finalScore += sub.getSubScore();
-//        }
-//
-//        userInputVO.setSubjectScoreVOList(subjectScoreVOList);
-//        return userInputVO;
-//    }
-
-
 
 }
