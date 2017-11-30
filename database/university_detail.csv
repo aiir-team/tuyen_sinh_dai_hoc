@@ -1,338 +1,338 @@
 id,university_code,university_name,university_level,branch_name,branch_code,combination_code,amount_student,type_admission,total_score,receive_time,deadline_time,geographic,university_rank
-1,BPH,Học viện biên phòng,Đại học,Sư phạm Quốc phòng và an ninh,52140208,C00,41,Kết quả thi THPT QG,23.75,2017-08-13,2017-08-17,Hà Nội,101
-2,CSH_DS,Học viện CSND,Đại học,Ngành Luật,52380101,A00,96,Kết quả thi THPT QG,15.75,2017-08-13,2017-08-20,Hà Nội,45
-3,CSH_DS,Học viện CSND,Đại học,Ngành Luật,52380101,A01,96,Kết quả thi THPT QG,16,2017-08-13,2017-08-20,Hà Nội,45
-4,CSH_DS,Học viện CSND,Đại học,Ngành Luật,52380101,C03,96,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-20,Hà Nội,45
-5,CSH_DS,Học viện CSND,Đại học,Ngành Luật,52380101,D01,96,Kết quả thi THPT QG,15.75,2017-08-13,2017-08-20,Hà Nội,45
-6,CSH_DS,Học viện CSND,Đại học,Ngành Luật,52380101,D01,96,Kết quả thi THPT QG,15.75,2017-08-13,2017-08-20,Hà Nội,45
-7,LDA,Đại học Công Đoàn,Đại học,Quản trị kinh doanh,52340408,A00,40,Kết quả thi THPT QG,20.5,2017-08-13,2017-08-21,Hà Nội,80
-8,LDA,Đại học Công Đoàn,Đại học,Quản trị kinh doanh,52340408,A01,40,Kết quả thi THPT QG,20.5,2017-08-13,2017-08-21,Hà Nội,80
-9,LDA,Đại học Công Đoàn,Đại học,Quản trị kinh doanh,52340408,D01,40,Kết quả thi THPT QG,20.5,2017-08-13,2017-08-21,Hà Nội,80
-10,LDA,Đại học Công Đoàn,Đại học,Quan hệ lao động,52340408,A00,40,Kết quả thi THPT QG,16.25,2017-08-13,2017-08-21,Hà Nội,80
-11,LDA,Đại học Công Đoàn,Đại học,Quan hệ lao động,52340408,A01,40,Kết quả thi THPT QG,16.25,2017-08-13,2017-08-21,Hà Nội,80
-12,LDA,Đại học Công Đoàn,Đại học,Quan hệ lao động,52340408,D01,40,Kết quả thi THPT QG,16.25,2017-08-13,2017-08-21,Hà Nội,80
-13,LDA,Đại học Công Đoàn,Đại học,Xã hội học,52310301,A01,45,Kết quả thi THPT QG,20.5,2017-08-13,2017-08-21,Hà Nội,80
-14,LDA,Đại học Công Đoàn,Đại học,Xã hội học,52310301,D01,45,Kết quả thi THPT QG,20.5,2017-08-13,2017-08-21,Hà Nội,80
-15,LDA,Đại học Công Đoàn,Đại học,Xã hội học,52310301,C00,45,Kết quả thi THPT QG,21.5,2017-08-13,2017-08-21,Hà Nội,80
-16,LDA,Đại học Công Đoàn,Đại học,Công tác xã hội,52760101,A01,45,Kết quả thi THPT QG,21.75,2017-08-13,2017-08-21,Hà Nội,80
-17,LDA,Đại học Công Đoàn,Đại học,Công tác xã hội,52760101,D01,45,Kết quả thi THPT QG,21.75,2017-08-13,2017-08-21,Hà Nội,80
-18,LDA,Đại học Công Đoàn,Đại học,Công tác xã hội,52760101,C00,45,Kết quả thi THPT QG,22.75,2017-08-13,2017-08-21,Hà Nội,80
-19,LDA,Đại học Công Đoàn,Đại học,Ngành Luật,52380101,A01,40,Kết quả thi THPT QG,23.75,2017-08-13,2017-08-21,Hà Nội,80
-20,LDA,Đại học Công Đoàn,Đại học,Ngành Luật,52380101,D01,40,Kết quả thi THPT QG,23.75,2017-08-13,2017-08-21,Hà Nội,80
-21,LDA,Đại học Công Đoàn,Đại học,Ngành Luật,52380101,C00,40,Kết quả thi THPT QG,24.75,2017-08-13,2017-08-21,Hà Nội,80
-22,CEA,Đại học kinh tế Nghệ An,Đại học,Kế toán,52340301,A00,55,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-23,CEA,Đại học kinh tế Nghệ An,Đại học,Kế toán,52340301,D01,55,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-24,CEA,Đại học kinh tế Nghệ An,Đại học,Kế toán,52340301,A01,55,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-25,CEA,Đại học kinh tế Nghệ An,Đại học,Kế toán,52340301,B00,55,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-26,CEA,Đại học kinh tế Nghệ An,Đại học,Kế toán,52340301,A00,162,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,101
-27,CEA,Đại học kinh tế Nghệ An,Đại học,Kế toán,52340301,D01,162,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,101
-28,CEA,Đại học kinh tế Nghệ An,Đại học,Kế toán,52340301,A01,162,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,101
-29,CEA,Đại học kinh tế Nghệ An,Đại học,Kế toán,52340301,B00,162,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,101
-30,CEA,Đại học kinh tế Nghệ An,Đại học,Quản trị kinh doanh,52340101,A00,57,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-31,CEA,Đại học kinh tế Nghệ An,Đại học,Quản trị kinh doanh,52340101,D01,57,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-32,CEA,Đại học kinh tế Nghệ An,Đại học,Quản trị kinh doanh,52340101,A01,57,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-33,CEA,Đại học kinh tế Nghệ An,Đại học,Quản trị kinh doanh,52340101,B00,57,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-34,CEA,Đại học kinh tế Nghệ An,Đại học,Quản trị kinh doanh,52340101,A00,134,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,101
-35,CEA,Đại học kinh tế Nghệ An,Đại học,Quản trị kinh doanh,52340101,D01,134,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,101
-36,CEA,Đại học kinh tế Nghệ An,Đại học,Quản trị kinh doanh,52340101,A01,134,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,101
-37,CEA,Đại học kinh tế Nghệ An,Đại học,Quản trị kinh doanh,52340101,B00,134,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,101
-38,CEA,Đại học kinh tế Nghệ An,Đại học,Kinh tế,52310101,A00,29,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-39,CEA,Đại học kinh tế Nghệ An,Đại học,Kinh tế,52310101,D01,29,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-40,CEA,Đại học kinh tế Nghệ An,Đại học,Kinh tế,52310101,A01,29,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-41,CEA,Đại học kinh tế Nghệ An,Đại học,Kinh tế,52310101,B00,29,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-42,CEA,Đại học kinh tế Nghệ An,Đại học,Kinh tế,52310101,A00,67,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,101
-43,CEA,Đại học kinh tế Nghệ An,Đại học,Kinh tế,52310101,D01,67,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,101
-44,CEA,Đại học kinh tế Nghệ An,Đại học,Kinh tế,52310101,A01,67,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,101
-45,CEA,Đại học kinh tế Nghệ An,Đại học,Kinh tế,52310101,B00,67,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,101
-46,CEA,Đại học kinh tế Nghệ An,Đại học,Quản lý đất đai,52850103,A00,12,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-47,CEA,Đại học kinh tế Nghệ An,Đại học,Quản lý đất đai,52850103,D01,12,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-48,CEA,Đại học kinh tế Nghệ An,Đại học,Quản lý đất đai,52850103,B00,12,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-49,CEA,Đại học kinh tế Nghệ An,Đại học,Quản lý đất đai,52850103,A01,12,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-50,CEA,Đại học kinh tế Nghệ An,Đại học,Quản lý đất đai,52850103,B00,28,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,101
-51,CEA,Đại học kinh tế Nghệ An,Đại học,Quản lý đất đai,52850103,D01,28,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,101
-52,CEA,Đại học kinh tế Nghệ An,Đại học,Quản lý đất đai,52850103,A01,28,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,101
-53,CEA,Đại học kinh tế Nghệ An,Đại học,Quản lý đất đai,52850103,A00,28,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,101
-54,CEA,Đại học kinh tế Nghệ An,Đại học,Thú y,52640101,A00,57,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-55,CEA,Đại học kinh tế Nghệ An,Đại học,Thú y,52640101,D01,57,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-56,CEA,Đại học kinh tế Nghệ An,Đại học,Thú y,52640101,A01,57,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-57,CEA,Đại học kinh tế Nghệ An,Đại học,Thú y,52640101,B00,57,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-58,CEA,Đại học kinh tế Nghệ An,Đại học,Thú y,52640101,A00,133,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,101
-59,CEA,Đại học kinh tế Nghệ An,Đại học,Thú y,52640101,D01,133,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,101
-60,CEA,Đại học kinh tế Nghệ An,Đại học,Thú y,52640101,A01,133,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,101
-61,CEA,Đại học kinh tế Nghệ An,Đại học,Thú y,52640101,B00,133,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,101
-62,CEA,Đại học kinh tế Nghệ An,Đại học,Lâm nghiệp,52620201,A00,9,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-63,CEA,Đại học kinh tế Nghệ An,Đại học,Lâm nghiệp,52620201,D01,9,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-64,CEA,Đại học kinh tế Nghệ An,Đại học,Lâm nghiệp,52620201,B00,9,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-65,CEA,Đại học kinh tế Nghệ An,Đại học,Lâm nghiệp,52620201,A01,9,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-66,CEA,Đại học kinh tế Nghệ An,Đại học,Khoa học cây trồng,52620110,A00,11,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-67,CEA,Đại học kinh tế Nghệ An,Đại học,Khoa học cây trồng,52620110,D01,11,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-68,CEA,Đại học kinh tế Nghệ An,Đại học,Khoa học cây trồng,52620110,A01,11,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-69,CEA,Đại học kinh tế Nghệ An,Đại học,Khoa học cây trồng,52620110,B00,11,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,101
-70,DTL,Đại học Thăng Long,Đại học,Thanh nhạc,5221020,N00,30,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,101
-71,DTL,Đại học Thăng Long,Đại học,Nhóm ngành kinh tế - quản lý,KQ01,A00,62,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,98
-72,DTL,Đại học Thăng Long,Đại học,Nhóm ngành kinh tế - quản lý,KQ01,D03,62,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,98
-73,DTL,Đại học Thăng Long,Đại học,Nhóm ngành kinh tế - quản lý,KQ01,D01,62,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,98
-74,DTL,Đại học Thăng Long,Đại học,Nhóm ngành kinh tế - quản lý,KQ01,A01,62,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,98
-75,DTL,Đại học Thăng Long,Đại học,Nhóm ngành toán - tin,TT01,A00,35,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,98
-76,DTL,Đại học Thăng Long,Đại học,Nhóm ngành toán - tin,TT01,A01,35,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,98
-77,DTL,Đại học Thăng Long,Đại học,Nhóm ngành Khoa học sức khỏe,SK01,B00,20,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,98
-78,DTL,Đại học Thăng Long,Đại học,Nhóm ngành Khoa học xã hội và nhân văn,XN01,C00,20,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,98
-79,DTL,Đại học Thăng Long,Đại học,Nhóm ngành Khoa học xã hội và nhân văn,XN01,D01,20,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,98
-80,DTL,Đại học Thăng Long,Đại học,Nhóm ngành Khoa học xã hội và nhân văn,XN01,D03,20,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,98
-81,DTL,Đại học Thăng Long,Đại học,Nhóm ngành Khoa học xã hội và nhân văn,XN01,D04,20,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,98
-82,DTL,Đại học Thăng Long,Đại học,Ngôn ngữ Anh,52220201,D01,60,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,98
-83,DTL,Đại học Thăng Long,Đại học,Ngôn ngữ Trung Quốc,52220204,D01,10,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,98
-84,DTL,Đại học Thăng Long,Đại học,Ngôn ngữ Trung Quốc,52220204,D03,10,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,98
-85,DTL,Đại học Thăng Long,Đại học,Ngôn ngữ Trung Quốc,52220204,D04,10,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,98
-86,DTL,Đại học Thăng Long,Đại học,Ngôn ngữ Nhật,52220209,D01,60,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,98
-87,DTL,Đại học Thăng Long,Đại học,Ngôn ngữ Nhật,52220209,D06,60,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,98
-88,DTL,Đại học Thăng Long,Đại học,Ngôn ngữ Hàn Quốc,52220210,D01,10,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,98
-89,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Toán học,51140209,A00,46,Kết quả thi THPT QG,10,2017-08-13,2017-08-31,Hưng Yên,101
-90,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Toán học,51140209,B00,46,Kết quả thi THPT QG,10,2017-08-13,2017-08-31,Hưng Yên,101
-91,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Toán học,51140209,A02,46,Kết quả thi THPT QG,10,2017-08-13,2017-08-31,Hưng Yên,101
-92,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Toán học,51140209,A16,46,Kết quả thi THPT QG,10,2017-08-13,2017-08-31,Hưng Yên,101
-93,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Hóa học,51140212,A16,25,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,101
-94,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Hóa học,51140212,A00,25,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,101
-95,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Hóa học,51140212,B00,25,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,101
-96,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Hóa học,51140212,A02,25,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,101
-97,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Sinh học,51140213,A00,25,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,101
-98,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Sinh học,51140213,B00,25,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,101
-99,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Sinh học,51140213,A02,25,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,101
-100,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Sinh học,51140213,A16,25,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,101
-101,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Ngữ văn,51140217,C00,50,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,101
-102,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Ngữ văn,51140217,C15,50,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,101
-103,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Ngữ văn,51140217,C20,50,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,101
-104,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Ngữ văn,51140217,C19,50,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,101
-105,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Giáo dục Tiểu học,51140202,D01,27,Kết quả thi THPT QG,10,2017-08-13,2017-08-31,Hưng Yên,101
-106,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Giáo dục Tiểu học,51140202,A16,27,Kết quả thi THPT QG,10,2017-08-13,2017-08-31,Hưng Yên,101
-107,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Giáo dục Tiểu học,51140202,C15,27,Kết quả thi THPT QG,10,2017-08-13,2017-08-31,Hưng Yên,101
-108,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Giáo dục Tiểu học,51140202,A01,27,Kết quả thi THPT QG,10,2017-08-13,2017-08-31,Hưng Yên,101
-109,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Tiếng Anh,51140231,D96,0,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,101
-110,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Tiếng Anh,51140231,D01,0,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,101
-111,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Quản lý nhà nước,52310205,A00,55,Kết quả thi THPT QG,21,2017-08-13,2017-08-31,Hồ Chí Minh,101
-112,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Quản lý nhà nước,52310205,A01,55,Kết quả thi THPT QG,21,2017-08-13,2017-08-31,Hồ Chí Minh,101
-113,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Quản lý nhà nước,52310205,C00,55,Kết quả thi THPT QG,21,2017-08-13,2017-08-31,Hồ Chí Minh,101
-114,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Quản lý nhà nước,52310205,D01,55,Kết quả thi THPT QG,21,2017-08-13,2017-08-31,Hồ Chí Minh,101
-115,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Ngành Luật,52380101,A00,10,Kết quả thi THPT QG,21.75,2017-08-13,2017-08-31,Hồ Chí Minh,101
-116,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Ngành Luật,52380101,A01,10,Kết quả thi THPT QG,21.75,2017-08-13,2017-08-31,Hồ Chí Minh,101
-117,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Ngành Luật,52380101,D01,10,Kết quả thi THPT QG,21.75,2017-08-13,2017-08-31,Hồ Chí Minh,101
-118,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Ngành Luật,52380101,C00,10,Kết quả thi THPT QG,21.75,2017-08-13,2017-08-31,Hồ Chí Minh,101
-119,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Xây dựng Đảng và Chính quyền Nhà nước,52310202,C03,25,Kết quả thi THPT QG,17.25,2017-08-13,2017-08-31,Hồ Chí Minh,101
-120,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Xây dựng Đảng và Chính quyền Nhà nước,52310202,C04,25,Kết quả thi THPT QG,17.25,2017-08-13,2017-08-31,Hồ Chí Minh,101
-121,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Xây dựng Đảng và Chính quyền Nhà nước,52310202,D01,25,Kết quả thi THPT QG,17.25,2017-08-13,2017-08-31,Hồ Chí Minh,101
-122,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Xây dựng Đảng và Chính quyền Nhà nước,52310202,C00,25,Kết quả thi THPT QG,17.25,2017-08-13,2017-08-31,Hồ Chí Minh,101
-123,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Chính trị học,52310201,C03,60,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Hồ Chí Minh,101
-124,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Chính trị học,52310201,C04,60,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Hồ Chí Minh,101
-125,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Chính trị học,52310201,D01,60,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Hồ Chí Minh,101
-126,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Chính trị học,52310201,C00,60,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Hồ Chí Minh,101
-127,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Công tác xã hội,52760101,D14,55,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Hồ Chí Minh,101
-128,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Công tác xã hội,52760101,C00,55,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Hồ Chí Minh,101
-129,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Công tác xã hội,52760101,D01,55,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Hồ Chí Minh,101
-130,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Công tác xã hội,52760101,C14,55,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Hồ Chí Minh,101
-131,DHV,Đại học Hùng Vương,Đại học,Công nghệ thông tin,52480201,A00,68,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,78
-132,DHV,Đại học Hùng Vương,Đại học,Công nghệ thông tin,52480201,A02,68,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,78
-133,DHV,Đại học Hùng Vương,Đại học,Công nghệ thông tin,52480201,B00,68,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,78
-134,DHV,Đại học Hùng Vương,Đại học,Công nghệ thông tin,52480201,D08,68,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,78
-135,DHV,Đại học Hùng Vương,Đại học,Công nghệ sau thu hoạch,52540104,A00,70,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,78
-136,DHV,Đại học Hùng Vương,Đại học,Công nghệ sau thu hoạch,52540104,A01,70,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,78
-137,DHV,Đại học Hùng Vương,Đại học,Công nghệ sau thu hoạch,52540104,D01,70,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,78
-138,DHV,Đại học Hùng Vương,Đại học,Công nghệ sau thu hoạch,52540104,D07,70,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,78
-139,DHV,Đại học Hùng Vương,Đại học,Kế toán,52340301,D07,65,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,78
-140,DHV,Đại học Hùng Vương,Đại học,Kế toán,52340301,A00,65,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,78
-141,DHV,Đại học Hùng Vương,Đại học,Kế toán,52340301,D01,65,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,78
-142,DHV,Đại học Hùng Vương,Đại học,Kế toán,52340301,A01,65,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,78
-143,DHV,Đại học Hùng Vương,Đại học,Quản trị kinh doanh,52340101,A02,65,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,78
-144,DHV,Đại học Hùng Vương,Đại học,Quản trị kinh doanh,52340101,B00,65,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,78
-145,DHV,Đại học Hùng Vương,Đại học,Quản trị kinh doanh,52340101,B03,65,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,78
-146,DHV,Đại học Hùng Vương,Đại học,Quản trị kinh doanh,52340101,D08,65,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,78
-147,DHV,Đại học Hùng Vương,Đại học,Quản lý bệnh viện,52720701,A00,70,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,78
-148,DHV,Đại học Hùng Vương,Đại học,Quản lý bệnh viện,52720701,A01,70,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,78
-149,DHV,Đại học Hùng Vương,Đại học,Tài chính ngân hàng,52340201,D01,67,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,78
-150,DHV,Đại học Hùng Vương,Đại học,Tài chính ngân hàng,52340201,D07,67,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,78
-151,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Toán học,51140209,A00,19,Kết quả thi THPT QG,11,2017-08-13,2017-08-30,Lâm Đồng,99
-152,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Toán học,51140209,A01,19,Kết quả thi THPT QG,11,2017-08-13,2017-08-30,Lâm Đồng,99
-153,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Toán học,51140209,D90,19,Kết quả thi THPT QG,11,2017-08-13,2017-08-30,Lâm Đồng,99
-154,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Toán học,51140209,A02,19,Kết quả thi THPT QG,11,2017-08-13,2017-08-30,Lâm Đồng,99
-155,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Ngữ văn,51140217,C00,21,Kết quả thi THPT QG,10,2017-08-13,2017-08-30,Lâm Đồng,99
-156,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Ngữ văn,51140217,D14,21,Kết quả thi THPT QG,10,2017-08-13,2017-08-30,Lâm Đồng,99
-157,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Ngữ văn,51140217,D15,21,Kết quả thi THPT QG,10,2017-08-13,2017-08-30,Lâm Đồng,99
-158,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Ngữ văn,51140217,C20,21,Kết quả thi THPT QG,10,2017-08-13,2017-08-30,Lâm Đồng,99
-159,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Anh văn,51140231,D01,12,Kết quả thi THPT QG,11,2017-08-13,2017-08-30,Lâm Đồng,99
-160,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Anh văn,51140231,A01,12,Kết quả thi THPT QG,11,2017-08-13,2017-08-30,Lâm Đồng,99
-161,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Anh văn,51140231,D14,12,Kết quả thi THPT QG,11,2017-08-13,2017-08-30,Lâm Đồng,99
-162,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Anh văn,51140231,D15,12,Kết quả thi THPT QG,11,2017-08-13,2017-08-30,Lâm Đồng,99
-163,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Ngôn ngữ Anh,52220201,D01,21,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-22,Long An,34
-164,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Ngôn ngữ Anh,52220201,D12,21,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-22,Long An,34
-165,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Ngôn ngữ Anh,52220201,D66,21,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-22,Long An,34
-166,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Ngôn ngữ Anh,52220201,D15,21,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-22,Long An,34
-167,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Quản trị kinh doanh,52340101,A01,49,Kết quả thi THPT QG,18,2017-08-13,2017-08-22,Long An,34
-168,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Quản trị kinh doanh,52340101,B03,49,Kết quả thi THPT QG,18,2017-08-13,2017-08-22,Long An,34
-169,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Quản trị kinh doanh,52340101,D13,49,Kết quả thi THPT QG,18,2017-08-13,2017-08-22,Long An,34
-170,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Quản trị kinh doanh,52340101,C20,49,Kết quả thi THPT QG,18,2017-08-13,2017-08-22,Long An,34
-171,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Tài chính ngân hàng,52340201,B00,50,Kết quả thi THPT QG,19,2017-08-13,2017-08-22,Long An,34
-172,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Tài chính ngân hàng,52340101,D07,50,Kết quả thi THPT QG,19,2017-08-13,2017-08-22,Long An,34
-173,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Tài chính ngân hàng,52340101,A08,50,Kết quả thi THPT QG,19,2017-08-13,2017-08-22,Long An,34
-174,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Tài chính ngân hàng,52340101,C08,50,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-22,Long An,34
-175,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Kế toán,52340301,A00,47,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-22,Long An,34
-176,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Kế toán,52340101,A09,47,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-22,Long An,34
-177,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Luật kinh tế,52340101,C02,47,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-22,Long An,34
-178,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Luật kinh tế,52340101,C00,88,Kết quả thi THPT QG,17,2017-08-13,2017-08-22,Long An,34
-179,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Luật kinh tế,52340101,A00,88,Kết quả thi THPT QG,17,2017-08-13,2017-08-22,Long An,34
-180,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Luật kinh tế,52340101,C04,88,Kết quả thi THPT QG,17,2017-08-13,2017-08-22,Long An,34
-181,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Khoa học máy tính,52340101,C14,39,Kết quả thi THPT QG,18,2017-08-13,2017-08-22,Long An,34
-182,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Khoa học máy tính,52340101,A00,39,Kết quả thi THPT QG,18,2017-08-13,2017-08-22,Long An,34
-183,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Khoa học máy tính,52340101,D08,39,Kết quả thi THPT QG,18,2017-08-13,2017-08-22,Long An,34
-184,DHT,Đại học Hồng Đức,Đại học,Sư phạm toán học,52140209,A00,41,Kết quả thi THPT QG,17.5,2017-08-08,2017-09-04,Thanh Hóa,67
-185,DHT,Đại học Hồng Đức,Đại học,Sư phạm toán học,52140209,A01,41,Kết quả thi THPT QG,17.5,2017-08-08,2017-09-04,Thanh Hóa,67
-186,DHT,Đại học Hồng Đức,Đại học,Sư phạm toán học,52140209,A02,41,Kết quả thi THPT QG,17.5,2017-08-08,2017-09-04,Thanh Hóa,67
-187,DHT,Đại học Hồng Đức,Đại học,Sư phạm vật lí,52140211,A00,40,Kết quả thi THPT QG,19.5,2017-08-08,2017-09-04,Thanh Hóa,67
-188,DHT,Đại học Hồng Đức,Đại học,Sư phạm vật lí,52140211,A01,40,Kết quả thi THPT QG,19.5,2017-08-08,2017-09-04,Thanh Hóa,67
-189,DHT,Đại học Hồng Đức,Đại học,Sư phạm hóa học,52140212,A00,38,Kết quả thi THPT QG,17.5,2017-08-08,2017-09-04,Thanh Hóa,67
-190,DHT,Đại học Hồng Đức,Đại học,Sư phạm hóa học,52140212,B00,38,Kết quả thi THPT QG,17.5,2017-08-08,2017-09-04,Thanh Hóa,67
-191,DHT,Đại học Hồng Đức,Đại học,Sư phạm hóa học,52140212,D07,38,Kết quả thi THPT QG,17.5,2017-08-08,2017-09-04,Thanh Hóa,67
-192,DHT,Đại học Hồng Đức,Đại học,Sư phạm sinh học,52140213,B00,40,Kết quả thi THPT QG,17.5,2017-08-08,2017-09-04,Thanh Hóa,67
-193,DHT,Đại học Hồng Đức,Đại học,Sư phạm sinh học,52140213,B02,40,Kết quả thi THPT QG,17.5,2017-08-08,2017-09-04,Thanh Hóa,67
-194,DHT,Đại học Hồng Đức,Đại học,Sư phạm sinh học,52140213,D08,40,Kết quả thi THPT QG,17.5,2017-08-08,2017-09-04,Thanh Hóa,67
-195,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành hóa học,52440112,A00,55,Kết quả thi THPT QG,15.5,2017-08-01,2017-08-20,Phú Thọ,45
-196,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành hóa học,52440112,A01,55,Kết quả thi THPT QG,15.5,2017-08-01,2017-08-20,Phú Thọ,45
-197,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành hóa học,52440112,B00,55,Kết quả thi THPT QG,15.5,2017-08-01,2017-08-20,Phú Thọ,45
-198,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành hóa học,52440112,D01,55,Kết quả thi THPT QG,15.5,2017-08-01,2017-08-20,Phú Thọ,45
-199,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành Công nghệ kỹ thuật Hóa học,52510401,A00,70,Kết quả thi THPT QG,15.5,2017-08-01,2017-08-20,Phú Thọ,45
-200,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành Công nghệ kỹ thuật Hóa học,52510401,A01,70,Kết quả thi THPT QG,15.5,2017-08-01,2017-08-20,Phú Thọ,45
-201,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành Công nghệ kỹ thuật Hóa học,52510401,B00,70,Kết quả thi THPT QG,15.5,2017-08-01,2017-08-20,Phú Thọ,45
-202,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành Công nghệ kỹ thuật Hóa học,52510401,D01,70,Kết quả thi THPT QG,15.5,2017-08-01,2017-08-20,Phú Thọ,45
-203,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành công nghệ kỹ thuật Môi trường,52510406,A00,35,Kết quả thi THPT QG,17.5,2017-08-01,2017-08-20,Phú Thọ,45
-204,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành công nghệ kỹ thuật Môi trường,52510406,A01,35,Kết quả thi THPT QG,17.5,2017-08-01,2017-08-20,Phú Thọ,45
-205,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành công nghệ kỹ thuật Môi trường,52510406,B00,35,Kết quả thi THPT QG,17.5,2017-08-01,2017-08-20,Phú Thọ,45
-206,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành công nghệ Sinh học,52420201,A00,25,Kết quả thi THPT QG,18.5,2017-08-01,2017-08-20,Phú Thọ,45
-207,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành công nghệ Sinh học,52420201,B00,25,Kết quả thi THPT QG,18.5,2017-08-01,2017-08-20,Phú Thọ,45
-208,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành công nghệ kỹ thuật Cơ khí,52510201,A00,50,Kết quả thi THPT QG,18.5,2017-08-01,2017-08-20,Phú Thọ,45
-209,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành công nghệ kỹ thuật Cơ khí,52510201,A01,50,Kết quả thi THPT QG,18.5,2017-08-01,2017-08-20,Phú Thọ,45
-210,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành công nghệ kỹ thuật Cơ khí,52510201,B00,50,Kết quả thi THPT QG,18.5,2017-08-01,2017-08-20,Phú Thọ,45
-211,VUI,Đại học công nghiệp Việt Trì,Đại học,"Ngành công nghệ kỹ thuật Điện, Điện tử",52510301,A00,75,Kết quả thi THPT QG,18.5,2017-08-01,2017-08-20,Phú Thọ,45
-212,VUI,Đại học công nghiệp Việt Trì,Đại học,"Ngành công nghệ kỹ thuật Điều khiển, Tự động hóa",52510303,B00,20,Kết quả thi THPT QG,20,2017-08-01,2017-08-20,Phú Thọ,45
-213,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành Công nghệ thông tin,52480201,A00,60,Kết quả thi THPT QG,21.5,2017-08-01,2017-08-20,Phú Thọ,45
-214,VUI,Đại học công nghiệp Việt Trì,Đại học,Kế toán,52340301,A00,55,Kết quả thi THPT QG,22.5,2017-08-01,2017-08-20,Phú Thọ,45
-215,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành Quản trị kinh doanh,52340101,A01,20,Kết quả thi THPT QG,15.5,2017-08-01,2017-08-20,Phú Thọ,45
-216,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành ngôn ngữ Anh,52220201,D01,35,Kết quả thi THPT QG,18.5,2017-08-01,2017-08-20,Phú Thọ,45
-217,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Toán học,51140209,A00,8,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-21,Bắc Giang,98
-218,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Tin học,51140201,A00,5,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-21,Bắc Giang,98
-219,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Tin học,51140201,A01,5,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-21,Bắc Giang,98
-220,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Tin học,51140201,D01,5,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-21,Bắc Giang,98
-221,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Ngữ Văn,51140217,C00,8,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-21,Bắc Giang,98
-222,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Ngữ Văn,51140217,C03,8,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-21,Bắc Giang,98
-223,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Ngữ Văn,51140217,C07,8,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-21,Bắc Giang,98
-224,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Lịch Sử,51140218,C00,5,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-21,Bắc Giang,98
-225,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Lịch Sử,51140218,C03,5,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-21,Bắc Giang,98
-226,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Lịch Sử,51140218,C12,5,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-21,Bắc Giang,98
-227,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Lịch Sử,51140218,D14,5,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-21,Bắc Giang,98
-228,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Tiếng Anh,51140231,A01,10,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-21,Bắc Giang,98
-229,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Tiếng Anh,51140231,D01,10,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-21,Bắc Giang,98
-230,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Giáo dục Tiểu học,51140202,A00,55,Kết quả thi THPT QG,17.5,2017-08-13,2017-08-21,Bắc Giang,98
-231,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Giáo dục Tiểu học,51140202,A01,55,Kết quả thi THPT QG,17.5,2017-08-13,2017-08-21,Bắc Giang,98
-232,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Giáo dục Tiểu học,51140202,C00,55,Kết quả thi THPT QG,17.5,2017-08-13,2017-08-21,Bắc Giang,98
-233,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Giáo dục Tiểu học,51140202,D01,55,Kết quả thi THPT QG,17.5,2017-08-13,2017-08-21,Bắc Giang,98
-234,LAH,Đại học Trần Quốc Tuấn,Đại học,Giáo viên giáo dục QP-AN,52140208,C00,69,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-26,Hải Dương,81
-235,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Ngôn ngữ Anh,52220201,D01,19,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,80
-236,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Ngôn ngữ Anh,52220201,D13,19,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,80
-237,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Ngôn ngữ Anh,52220201,D14,19,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,80
-238,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Ngôn ngữ Anh,52220201,D15,19,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,80
-239,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Quản trị kinh doanh,52340101,A00,50,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,80
-240,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Quản trị kinh doanh,52340101,A01,50,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,80
-241,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Quản trị kinh doanh,52340101,A06,50,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,80
-242,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Quản trị kinh doanh,52340101,C13,50,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,80
-243,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Tài chính - ngân hàng,52340201,A00,20,Kết quả thi THPT QG,18.5,2017-08-08,2017-08-20,TP HCM,80
-244,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Tài chính - ngân hàng,52340201,A01,20,Kết quả thi THPT QG,18.5,2017-08-08,2017-08-20,TP HCM,80
-245,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Tài chính - ngân hàng,52340201,A03,20,Kết quả thi THPT QG,18.5,2017-08-08,2017-08-20,TP HCM,80
-246,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Tài chính - ngân hàng,52340201,A07,20,Kết quả thi THPT QG,18.5,2017-08-08,2017-08-20,TP HCM,80
-247,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Kế toán,52340301,A01,30,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,80
-248,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Kế toán,52340301,B01,30,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,80
-249,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Kế toán,52340301,B02,30,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,80
-250,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Kế toán,52340301,C12,30,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,80
-251,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Truyền thông và mạng máy tính,52480102,A00,20,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,80
-252,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Truyền thông và mạng máy tính,52480102,A01,20,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,80
-253,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Truyền thông và mạng máy tính,52480102,A02,20,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,80
-254,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Kỹ thuật phần mềm,52480103,A00,20,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,80
-255,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Kỹ thuật phần mềm,52480103,A01,20,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,80
-256,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Kỹ thuật phần mềm,52480103,A04,20,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,80
-257,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Kỹ thuật phần mềm,52480103,B00,20,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,80
-258,DPX,Đại học dân lập Phú Xuân,Đại học,Công nghệ thông tin,52480201,A00,30,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,72
-259,DPX,Đại học dân lập Phú Xuân,Đại học,Công nghệ thông tin,52480201,B00,30,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,72
-260,DPX,Đại học dân lập Phú Xuân,Đại học,Công nghệ thông tin,52480201,D01,30,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,72
-261,DPX,Đại học dân lập Phú Xuân,Đại học,Công nghệ thông tin,52480201,A01,30,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,72
-262,DPX,Đại học dân lập Phú Xuân,Đại học,"Công nghệ kỹ thuật điện, điện tử",52510301,A00,15,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-05,Hà Nội,72
-263,DPX,Đại học dân lập Phú Xuân,Đại học,"Công nghệ kỹ thuật điện, điện tử",52510301,D01,15,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-05,Hà Nội,72
-264,DPX,Đại học dân lập Phú Xuân,Đại học,"Công nghệ kỹ thuật điện, điện tử",52510301,A01,15,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-05,Hà Nội,72
-265,DPX,Đại học dân lập Phú Xuân,Đại học,Kế toán,52340301,A00,50,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,72
-266,DPX,Đại học dân lập Phú Xuân,Đại học,Kế toán,52340301,B00,50,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,72
-267,DPX,Đại học dân lập Phú Xuân,Đại học,Kế toán,52340301,D01,50,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,72
-268,DPX,Đại học dân lập Phú Xuân,Đại học,Tài chính - ngân hàng,52340201,A00,25,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,72
-269,DPX,Đại học dân lập Phú Xuân,Đại học,Tài chính - ngân hàng,52340201,B00,25,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,72
-270,DPX,Đại học dân lập Phú Xuân,Đại học,Tài chính - ngân hàng,52340201,D01,25,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,72
-271,DPX,Đại học dân lập Phú Xuân,Đại học,Tài chính - ngân hàng,52340201,A01,25,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,72
-272,DPX,Đại học dân lập Phú Xuân,Đại học,Quản trị kinh doanh,52340101,A00,35,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,72
-273,DPX,Đại học dân lập Phú Xuân,Đại học,Quản trị kinh doanh,52340101,B00,35,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,72
-274,DPX,Đại học dân lập Phú Xuân,Đại học,Quản trị kinh doanh,52340101,D01,35,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,72
-275,DPX,Đại học dân lập Phú Xuân,Đại học,Quản trị kinh doanh,52340101,A01,35,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,72
-276,DPX,Đại học dân lập Phú Xuân,Đại học,Văn học,52220330,C00,20,Kết quả thi THPT QG,20,2017-08-13,2017-09-05,Hà Nội,72
-277,DPX,Đại học dân lập Phú Xuân,Đại học,Văn học,52220330,D01,20,Kết quả thi THPT QG,20,2017-08-13,2017-09-05,Hà Nội,72
-278,DPX,Đại học dân lập Phú Xuân,Đại học,Văn học,52220330,D15,20,Kết quả thi THPT QG,20,2017-08-13,2017-09-05,Hà Nội,72
-279,DPX,Đại học dân lập Phú Xuân,Đại học,Văn học,52220330,D11,20,Kết quả thi THPT QG,20,2017-08-13,2017-09-05,Hà Nội,72
-280,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Toán học,51140209,A00,10,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,94
-281,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Toán học,51140209,A01,10,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,94
-282,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Toán học,51140209,D07,10,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,94
-283,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Toán học,51140209,D08,10,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,94
-284,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Vật lí,51140211,A00,5,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-18,Gia Lai,94
-285,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Vật lí,51140211,A01,5,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-18,Gia Lai,94
-286,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Vật lí,51140211,A02,5,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-18,Gia Lai,94
-287,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Hóa học,51140212,A00,4,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,94
-288,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Hóa học,51140212,B00,4,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,94
-289,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Hóa học,51140212,D07,4,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,94
-290,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Hóa học,51140212,D08,4,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,94
-291,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Ngữ Văn,51140217,C00,9,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,94
-292,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Ngữ Văn,51140217,C14,9,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,94
-293,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Tiếng Anh,51140231,D01,6,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,94
-294,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Tiếng Anh,51140231,A01,6,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,94
-295,TCU,Đại học thông tin liên lạc,Đại học,Công nghệ thông tin,52480201,A00,44,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-23,Hà Nội,34
-296,TCU,Đại học thông tin liên lạc,Đại học,Công nghệ thông tin,52480201,A01,44,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-23,Hà Nội,34
-297,TCU,Đại học thông tin liên lạc,Đại học,Công nghệ thông tin,52480201,C01,44,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-23,Hà Nội,34
-298,TCU,Đại học thông tin liên lạc,Đại học,Công nghệ thông tin,52480201,D01,44,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-23,Hà Nội,34
-299,TCU,Đại học thông tin liên lạc,Đại học,Kỹ thuật điện tử truyền thông,52520207,A00,72,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-23,Hà Nội,34
-300,TCU,Đại học thông tin liên lạc,Đại học,Kỹ thuật điện tử truyền thông,52520207,A01,72,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-23,Hà Nội,34
-301,TCU,Đại học thông tin liên lạc,Đại học,Kỹ thuật điện tử truyền thông,52520207,C01,72,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-23,Hà Nội,34
-302,TCU,Đại học thông tin liên lạc,Đại học,Kỹ thuật điện tử truyền thông,52520207,D01,72,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-23,Hà Nội,34
-303,DHP,Đại học dân lập Hải Phòng ,Đại học,Việt Nam học,52220113,A00,62,Kết quả thi THPT QG,17.5,2017-08-13,2017-09-10,Hải Phòng,50
-304,DHP,Đại học dân lập Hải Phòng ,Đại học,Việt Nam học,52220113,C00,62,Kết quả thi THPT QG,17.5,2017-08-13,2017-09-10,Hải Phòng,50
-305,DHP,Đại học dân lập Hải Phòng ,Đại học,Việt Nam học,52220113,D01,62,Kết quả thi THPT QG,17.5,2017-08-13,2017-09-10,Hải Phòng,50
-306,DHP,Đại học dân lập Hải Phòng ,Đại học,Ngôn ngữ Anh,52220201,A01,42,Kết quả thi THPT QG,18.5,2017-08-13,2017-09-10,Hải Phòng,50
-307,DHP,Đại học dân lập Hải Phòng ,Đại học,Ngôn ngữ Anh,52220201,D01,42,Kết quả thi THPT QG,18.5,2017-08-13,2017-09-10,Hải Phòng,50
-308,DHP,Đại học dân lập Hải Phòng ,Đại học,Ngôn ngữ Anh,52220201,D14,42,Kết quả thi THPT QG,18.5,2017-08-13,2017-09-10,Hải Phòng,50
-309,DHP,Đại học dân lập Hải Phòng ,Đại học,Ngôn ngữ Anh,52220201,D15,42,Kết quả thi THPT QG,18.5,2017-08-13,2017-09-10,Hải Phòng,50
-310,DHP,Đại học dân lập Hải Phòng ,Đại học,Quản trị kinh doanh,52340101,A00,186,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,50
-311,DHP,Đại học dân lập Hải Phòng ,Đại học,Quản trị kinh doanh,52340101,A01,186,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,50
-312,DHP,Đại học dân lập Hải Phòng ,Đại học,Quản trị kinh doanh,52340101,D01,186,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,50
-313,DHP,Đại học dân lập Hải Phòng ,Đại học,Quản trị kinh doanh,52340101,D02,186,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,50
-314,DHP,Đại học dân lập Hải Phòng ,Đại học,Quản trị kinh doanh,52340101,D03,186,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,50
-315,DHP,Đại học dân lập Hải Phòng ,Đại học,Quản trị kinh doanh,52340101,D04,186,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,50
-316,DHP,Đại học dân lập Hải Phòng ,Đại học,Công nghệ thông tin,52480201,A00,59,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,50
-317,DHP,Đại học dân lập Hải Phòng ,Đại học,Công nghệ thông tin,52480201,A01,59,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,50
-318,DHP,Đại học dân lập Hải Phòng ,Đại học,Công nghệ thông tin,52480201,D07,59,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,50
-319,DHP,Đại học dân lập Hải Phòng ,Đại học,Công nghệ thông tin,52480201,D08,59,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,50
-320,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật điện - điện tử,52510301,A00,73,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,50
-321,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật điện - điện tử,52510301,A01,73,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,50
-322,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật điện - điện tử,52510301,B00,73,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,50
-323,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật điện - điện tử,52510301,D01,73,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,50
-324,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật môi trường,52510406,A00,82,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,50
-325,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật môi trường,52510406,A01,82,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,50
-326,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật môi trường,52510406,A02,82,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,50
-327,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật môi trường,52510406,B00,82,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,50
-328,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật công trình XD,52580201,A00,84,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,50
-329,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật công trình XD,52580201,A01,84,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,50
-330,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật công trình XD,52580201,A04,84,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,50
-331,DHP,Đại học dân lập Hải Phòng ,Đại học,Nông nghiệp,52620101,A00,58,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,50
-332,DHP,Đại học dân lập Hải Phòng ,Đại học,Nông nghiệp,52620101,A01,58,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,50
-333,DHP,Đại học dân lập Hải Phòng ,Đại học,Nông nghiệp,52620101,A02,58,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,50
-334,DHP,Đại học dân lập Hải Phòng ,Đại học,Nông nghiệp,52620101,B00,58,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,50
-335,LCS,Sĩ quan chính trị,Đại học,Giáo dục quốc phòng và an ninh,52140208,A00,19,Kết quả thi THPT QG,16.75,2017-08-13,2017-08-17,Bắc Ninh,40
-336,LCS,Sĩ quan chính trị,Đại học,Giáo dục quốc phòng và an ninh,52140208,C00,26,Kết quả thi THPT QG,23.25,2017-08-13,2017-08-17,Bắc Ninh,40
-337,LCS,Sĩ quan chính trị,Đại học,Giáo dục quốc phòng và an ninh,52140208,D01,15,Kết quả thi THPT QG,19.75,2017-08-13,2017-08-17,Bắc Ninh,40
+1,BPH,Học viện biên phòng,Đại học,Sư phạm Quốc phòng và an ninh,52140208,C00,41,Kết quả thi THPT QG,23.75,2017-08-13,2017-08-17,Hà Nội,10
+2,CSH_DS,Học viện CSND,Đại học,Ngành Luật,52380101,A00,96,Kết quả thi THPT QG,15.75,2017-08-13,2017-08-20,Hà Nội,4
+3,CSH_DS,Học viện CSND,Đại học,Ngành Luật,52380101,A01,96,Kết quả thi THPT QG,16,2017-08-13,2017-08-20,Hà Nội,4
+4,CSH_DS,Học viện CSND,Đại học,Ngành Luật,52380101,C03,96,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-20,Hà Nội,4
+5,CSH_DS,Học viện CSND,Đại học,Ngành Luật,52380101,D01,96,Kết quả thi THPT QG,15.75,2017-08-13,2017-08-20,Hà Nội,4
+6,CSH_DS,Học viện CSND,Đại học,Ngành Luật,52380101,D01,96,Kết quả thi THPT QG,15.75,2017-08-13,2017-08-20,Hà Nội,4
+7,LDA,Đại học Công Đoàn,Đại học,Quản trị kinh doanh,52340408,A00,40,Kết quả thi THPT QG,20.5,2017-08-13,2017-08-21,Hà Nội,8
+8,LDA,Đại học Công Đoàn,Đại học,Quản trị kinh doanh,52340408,A01,40,Kết quả thi THPT QG,20.5,2017-08-13,2017-08-21,Hà Nội,8
+9,LDA,Đại học Công Đoàn,Đại học,Quản trị kinh doanh,52340408,D01,40,Kết quả thi THPT QG,20.5,2017-08-13,2017-08-21,Hà Nội,8
+10,LDA,Đại học Công Đoàn,Đại học,Quan hệ lao động,52340408,A00,40,Kết quả thi THPT QG,16.25,2017-08-13,2017-08-21,Hà Nội,8
+11,LDA,Đại học Công Đoàn,Đại học,Quan hệ lao động,52340408,A01,40,Kết quả thi THPT QG,16.25,2017-08-13,2017-08-21,Hà Nội,8
+12,LDA,Đại học Công Đoàn,Đại học,Quan hệ lao động,52340408,D01,40,Kết quả thi THPT QG,16.25,2017-08-13,2017-08-21,Hà Nội,8
+13,LDA,Đại học Công Đoàn,Đại học,Xã hội học,52310301,A01,45,Kết quả thi THPT QG,20.5,2017-08-13,2017-08-21,Hà Nội,8
+14,LDA,Đại học Công Đoàn,Đại học,Xã hội học,52310301,D01,45,Kết quả thi THPT QG,20.5,2017-08-13,2017-08-21,Hà Nội,8
+15,LDA,Đại học Công Đoàn,Đại học,Xã hội học,52310301,C00,45,Kết quả thi THPT QG,21.5,2017-08-13,2017-08-21,Hà Nội,8
+16,LDA,Đại học Công Đoàn,Đại học,Công tác xã hội,52760101,A01,45,Kết quả thi THPT QG,21.75,2017-08-13,2017-08-21,Hà Nội,8
+17,LDA,Đại học Công Đoàn,Đại học,Công tác xã hội,52760101,D01,45,Kết quả thi THPT QG,21.75,2017-08-13,2017-08-21,Hà Nội,8
+18,LDA,Đại học Công Đoàn,Đại học,Công tác xã hội,52760101,C00,45,Kết quả thi THPT QG,22.75,2017-08-13,2017-08-21,Hà Nội,8
+19,LDA,Đại học Công Đoàn,Đại học,Ngành Luật,52380101,A01,40,Kết quả thi THPT QG,23.75,2017-08-13,2017-08-21,Hà Nội,8
+20,LDA,Đại học Công Đoàn,Đại học,Ngành Luật,52380101,D01,40,Kết quả thi THPT QG,23.75,2017-08-13,2017-08-21,Hà Nội,8
+21,LDA,Đại học Công Đoàn,Đại học,Ngành Luật,52380101,C00,40,Kết quả thi THPT QG,24.75,2017-08-13,2017-08-21,Hà Nội,8
+22,CEA,Đại học kinh tế Nghệ An,Đại học,Kế toán,52340301,A00,55,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+23,CEA,Đại học kinh tế Nghệ An,Đại học,Kế toán,52340301,D01,55,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+24,CEA,Đại học kinh tế Nghệ An,Đại học,Kế toán,52340301,A01,55,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+25,CEA,Đại học kinh tế Nghệ An,Đại học,Kế toán,52340301,B00,55,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+26,CEA,Đại học kinh tế Nghệ An,Đại học,Kế toán,52340301,A00,162,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,10
+27,CEA,Đại học kinh tế Nghệ An,Đại học,Kế toán,52340301,D01,162,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,10
+28,CEA,Đại học kinh tế Nghệ An,Đại học,Kế toán,52340301,A01,162,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,10
+29,CEA,Đại học kinh tế Nghệ An,Đại học,Kế toán,52340301,B00,162,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,10
+30,CEA,Đại học kinh tế Nghệ An,Đại học,Quản trị kinh doanh,52340101,A00,57,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+31,CEA,Đại học kinh tế Nghệ An,Đại học,Quản trị kinh doanh,52340101,D01,57,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+32,CEA,Đại học kinh tế Nghệ An,Đại học,Quản trị kinh doanh,52340101,A01,57,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+33,CEA,Đại học kinh tế Nghệ An,Đại học,Quản trị kinh doanh,52340101,B00,57,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+34,CEA,Đại học kinh tế Nghệ An,Đại học,Quản trị kinh doanh,52340101,A00,134,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,10
+35,CEA,Đại học kinh tế Nghệ An,Đại học,Quản trị kinh doanh,52340101,D01,134,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,10
+36,CEA,Đại học kinh tế Nghệ An,Đại học,Quản trị kinh doanh,52340101,A01,134,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,10
+37,CEA,Đại học kinh tế Nghệ An,Đại học,Quản trị kinh doanh,52340101,B00,134,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,10
+38,CEA,Đại học kinh tế Nghệ An,Đại học,Kinh tế,52310101,A00,29,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+39,CEA,Đại học kinh tế Nghệ An,Đại học,Kinh tế,52310101,D01,29,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+40,CEA,Đại học kinh tế Nghệ An,Đại học,Kinh tế,52310101,A01,29,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+41,CEA,Đại học kinh tế Nghệ An,Đại học,Kinh tế,52310101,B00,29,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+42,CEA,Đại học kinh tế Nghệ An,Đại học,Kinh tế,52310101,A00,67,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,10
+43,CEA,Đại học kinh tế Nghệ An,Đại học,Kinh tế,52310101,D01,67,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,10
+44,CEA,Đại học kinh tế Nghệ An,Đại học,Kinh tế,52310101,A01,67,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,10
+45,CEA,Đại học kinh tế Nghệ An,Đại học,Kinh tế,52310101,B00,67,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,10
+46,CEA,Đại học kinh tế Nghệ An,Đại học,Quản lý đất đai,52850103,A00,12,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+47,CEA,Đại học kinh tế Nghệ An,Đại học,Quản lý đất đai,52850103,D01,12,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+48,CEA,Đại học kinh tế Nghệ An,Đại học,Quản lý đất đai,52850103,B00,12,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+49,CEA,Đại học kinh tế Nghệ An,Đại học,Quản lý đất đai,52850103,A01,12,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+50,CEA,Đại học kinh tế Nghệ An,Đại học,Quản lý đất đai,52850103,B00,28,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,10
+51,CEA,Đại học kinh tế Nghệ An,Đại học,Quản lý đất đai,52850103,D01,28,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,10
+52,CEA,Đại học kinh tế Nghệ An,Đại học,Quản lý đất đai,52850103,A01,28,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,10
+53,CEA,Đại học kinh tế Nghệ An,Đại học,Quản lý đất đai,52850103,A00,28,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,10
+54,CEA,Đại học kinh tế Nghệ An,Đại học,Thú y,52640101,A00,57,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+55,CEA,Đại học kinh tế Nghệ An,Đại học,Thú y,52640101,D01,57,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+56,CEA,Đại học kinh tế Nghệ An,Đại học,Thú y,52640101,A01,57,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+57,CEA,Đại học kinh tế Nghệ An,Đại học,Thú y,52640101,B00,57,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+58,CEA,Đại học kinh tế Nghệ An,Đại học,Thú y,52640101,A00,133,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,10
+59,CEA,Đại học kinh tế Nghệ An,Đại học,Thú y,52640101,D01,133,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,10
+60,CEA,Đại học kinh tế Nghệ An,Đại học,Thú y,52640101,A01,133,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,10
+61,CEA,Đại học kinh tế Nghệ An,Đại học,Thú y,52640101,B00,133,Phương thức khác,15.5,2017-08-13,2017-08-31,Nghệ An,10
+62,CEA,Đại học kinh tế Nghệ An,Đại học,Lâm nghiệp,52620201,A00,9,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+63,CEA,Đại học kinh tế Nghệ An,Đại học,Lâm nghiệp,52620201,D01,9,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+64,CEA,Đại học kinh tế Nghệ An,Đại học,Lâm nghiệp,52620201,B00,9,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+65,CEA,Đại học kinh tế Nghệ An,Đại học,Lâm nghiệp,52620201,A01,9,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+66,CEA,Đại học kinh tế Nghệ An,Đại học,Khoa học cây trồng,52620110,A00,11,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+67,CEA,Đại học kinh tế Nghệ An,Đại học,Khoa học cây trồng,52620110,D01,11,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+68,CEA,Đại học kinh tế Nghệ An,Đại học,Khoa học cây trồng,52620110,A01,11,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+69,CEA,Đại học kinh tế Nghệ An,Đại học,Khoa học cây trồng,52620110,B00,11,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Nghệ An,10
+70,DTL,Đại học Thăng Long,Đại học,Thanh nhạc,5221020,N00,30,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,10
+71,DTL,Đại học Thăng Long,Đại học,Nhóm ngành kinh tế - quản lý,KQ01,A00,62,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,9
+72,DTL,Đại học Thăng Long,Đại học,Nhóm ngành kinh tế - quản lý,KQ01,D03,62,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,9
+73,DTL,Đại học Thăng Long,Đại học,Nhóm ngành kinh tế - quản lý,KQ01,D01,62,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,9
+74,DTL,Đại học Thăng Long,Đại học,Nhóm ngành kinh tế - quản lý,KQ01,A01,62,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,9
+75,DTL,Đại học Thăng Long,Đại học,Nhóm ngành toán - tin,TT01,A00,35,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,9
+76,DTL,Đại học Thăng Long,Đại học,Nhóm ngành toán - tin,TT01,A01,35,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,9
+77,DTL,Đại học Thăng Long,Đại học,Nhóm ngành Khoa học sức khỏe,SK01,B00,20,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,9
+78,DTL,Đại học Thăng Long,Đại học,Nhóm ngành Khoa học xã hội và nhân văn,XN01,C00,20,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,9
+79,DTL,Đại học Thăng Long,Đại học,Nhóm ngành Khoa học xã hội và nhân văn,XN01,D01,20,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,9
+80,DTL,Đại học Thăng Long,Đại học,Nhóm ngành Khoa học xã hội và nhân văn,XN01,D03,20,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,9
+81,DTL,Đại học Thăng Long,Đại học,Nhóm ngành Khoa học xã hội và nhân văn,XN01,D04,20,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,9
+82,DTL,Đại học Thăng Long,Đại học,Ngôn ngữ Anh,52220201,D01,60,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,9
+83,DTL,Đại học Thăng Long,Đại học,Ngôn ngữ Trung Quốc,52220204,D01,10,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,9
+84,DTL,Đại học Thăng Long,Đại học,Ngôn ngữ Trung Quốc,52220204,D03,10,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,9
+85,DTL,Đại học Thăng Long,Đại học,Ngôn ngữ Trung Quốc,52220204,D04,10,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,9
+86,DTL,Đại học Thăng Long,Đại học,Ngôn ngữ Nhật,52220209,D01,60,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,9
+87,DTL,Đại học Thăng Long,Đại học,Ngôn ngữ Nhật,52220209,D06,60,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,9
+88,DTL,Đại học Thăng Long,Đại học,Ngôn ngữ Hàn Quốc,52220210,D01,10,Kết quả thi THPT QG,15,2017-08-13,2017-08-31,Hà Nội,9
+89,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Toán học,51140209,A00,46,Kết quả thi THPT QG,10,2017-08-13,2017-08-31,Hưng Yên,8
+90,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Toán học,51140209,B00,46,Kết quả thi THPT QG,10,2017-08-13,2017-08-31,Hưng Yên,8
+91,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Toán học,51140209,A02,46,Kết quả thi THPT QG,10,2017-08-13,2017-08-31,Hưng Yên,8
+92,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Toán học,51140209,A16,46,Kết quả thi THPT QG,10,2017-08-13,2017-08-31,Hưng Yên,8
+93,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Hóa học,51140212,A16,25,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,8
+94,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Hóa học,51140212,A00,25,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,8
+95,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Hóa học,51140212,B00,25,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,8
+96,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Hóa học,51140212,A02,25,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,8
+97,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Sinh học,51140213,A00,25,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,8
+98,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Sinh học,51140213,B00,25,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,8
+99,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Sinh học,51140213,A02,25,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,8
+100,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Sinh học,51140213,A16,25,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,8
+101,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Ngữ văn,51140217,C00,50,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,8
+102,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Ngữ văn,51140217,C15,50,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,8
+103,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Ngữ văn,51140217,C20,50,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,8
+104,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Ngữ văn,51140217,C19,50,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,8
+105,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Giáo dục Tiểu học,51140202,D01,27,Kết quả thi THPT QG,10,2017-08-13,2017-08-31,Hưng Yên,8
+106,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Giáo dục Tiểu học,51140202,A16,27,Kết quả thi THPT QG,10,2017-08-13,2017-08-31,Hưng Yên,8
+107,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Giáo dục Tiểu học,51140202,C15,27,Kết quả thi THPT QG,10,2017-08-13,2017-08-31,Hưng Yên,8
+108,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Giáo dục Tiểu học,51140202,A01,27,Kết quả thi THPT QG,10,2017-08-13,2017-08-31,Hưng Yên,8
+109,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Tiếng Anh,51140231,D96,0,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,8
+110,C22,Cao đẳng sư phạm Hưng Yên,Cao đẳng,Sư phạm Tiếng Anh,51140231,D01,0,Kết quả thi THPT QG,25,2017-08-13,2017-08-31,Hưng Yên,8
+111,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Quản lý nhà nước,52310205,A00,55,Kết quả thi THPT QG,21,2017-08-13,2017-08-31,Hồ Chí Minh,5
+112,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Quản lý nhà nước,52310205,A01,55,Kết quả thi THPT QG,21,2017-08-13,2017-08-31,Hồ Chí Minh,5
+113,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Quản lý nhà nước,52310205,C00,55,Kết quả thi THPT QG,21,2017-08-13,2017-08-31,Hồ Chí Minh,5
+114,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Quản lý nhà nước,52310205,D01,55,Kết quả thi THPT QG,21,2017-08-13,2017-08-31,Hồ Chí Minh,5
+115,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Ngành Luật,52380101,A00,10,Kết quả thi THPT QG,21.75,2017-08-13,2017-08-31,Hồ Chí Minh,5
+116,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Ngành Luật,52380101,A01,10,Kết quả thi THPT QG,21.75,2017-08-13,2017-08-31,Hồ Chí Minh,5
+117,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Ngành Luật,52380101,D01,10,Kết quả thi THPT QG,21.75,2017-08-13,2017-08-31,Hồ Chí Minh,5
+118,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Ngành Luật,52380101,C00,10,Kết quả thi THPT QG,21.75,2017-08-13,2017-08-31,Hồ Chí Minh,5
+119,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Xây dựng Đảng và Chính quyền Nhà nước,52310202,C03,25,Kết quả thi THPT QG,17.25,2017-08-13,2017-08-31,Hồ Chí Minh,5
+120,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Xây dựng Đảng và Chính quyền Nhà nước,52310202,C04,25,Kết quả thi THPT QG,17.25,2017-08-13,2017-08-31,Hồ Chí Minh,5
+121,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Xây dựng Đảng và Chính quyền Nhà nước,52310202,D01,25,Kết quả thi THPT QG,17.25,2017-08-13,2017-08-31,Hồ Chí Minh,5
+122,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Xây dựng Đảng và Chính quyền Nhà nước,52310202,C00,25,Kết quả thi THPT QG,17.25,2017-08-13,2017-08-31,Hồ Chí Minh,5
+123,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Chính trị học,52310201,C03,60,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Hồ Chí Minh,5
+124,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Chính trị học,52310201,C04,60,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Hồ Chí Minh,5
+125,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Chính trị học,52310201,D01,60,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Hồ Chí Minh,5
+126,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Chính trị học,52310201,C00,60,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Hồ Chí Minh,5
+127,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Công tác xã hội,52760101,D14,55,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Hồ Chí Minh,5
+128,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Công tác xã hội,52760101,C00,55,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Hồ Chí Minh,5
+129,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Công tác xã hội,52760101,D01,55,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Hồ Chí Minh,5
+130,HVC,Học viện cán bộ Thành phố Hồ Chí Minh,Đại học,Công tác xã hội,52760101,C14,55,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-31,Hồ Chí Minh,5
+131,DHV,Đại học Hùng Vương,Đại học,Công nghệ thông tin,52480201,A00,68,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,7
+132,DHV,Đại học Hùng Vương,Đại học,Công nghệ thông tin,52480201,A02,68,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,7
+133,DHV,Đại học Hùng Vương,Đại học,Công nghệ thông tin,52480201,B00,68,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,7
+134,DHV,Đại học Hùng Vương,Đại học,Công nghệ thông tin,52480201,D08,68,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,7
+135,DHV,Đại học Hùng Vương,Đại học,Công nghệ sau thu hoạch,52540104,A00,70,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,7
+136,DHV,Đại học Hùng Vương,Đại học,Công nghệ sau thu hoạch,52540104,A01,70,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,7
+137,DHV,Đại học Hùng Vương,Đại học,Công nghệ sau thu hoạch,52540104,D01,70,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,7
+138,DHV,Đại học Hùng Vương,Đại học,Công nghệ sau thu hoạch,52540104,D07,70,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,7
+139,DHV,Đại học Hùng Vương,Đại học,Kế toán,52340301,D07,65,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,7
+140,DHV,Đại học Hùng Vương,Đại học,Kế toán,52340301,A00,65,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,7
+141,DHV,Đại học Hùng Vương,Đại học,Kế toán,52340301,D01,65,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,7
+142,DHV,Đại học Hùng Vương,Đại học,Kế toán,52340301,A01,65,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,7
+143,DHV,Đại học Hùng Vương,Đại học,Quản trị kinh doanh,52340101,A02,65,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,7
+144,DHV,Đại học Hùng Vương,Đại học,Quản trị kinh doanh,52340101,B00,65,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,7
+145,DHV,Đại học Hùng Vương,Đại học,Quản trị kinh doanh,52340101,B03,65,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,7
+146,DHV,Đại học Hùng Vương,Đại học,Quản trị kinh doanh,52340101,D08,65,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,7
+147,DHV,Đại học Hùng Vương,Đại học,Quản lý bệnh viện,52720701,A00,70,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,7
+148,DHV,Đại học Hùng Vương,Đại học,Quản lý bệnh viện,52720701,A01,70,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,7
+149,DHV,Đại học Hùng Vương,Đại học,Tài chính ngân hàng,52340201,D01,67,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,7
+150,DHV,Đại học Hùng Vương,Đại học,Tài chính ngân hàng,52340201,D07,67,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Hồ Chí Minh,7
+151,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Toán học,51140209,A00,19,Kết quả thi THPT QG,11,2017-08-13,2017-08-30,Lâm Đồng,9
+152,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Toán học,51140209,A01,19,Kết quả thi THPT QG,11,2017-08-13,2017-08-30,Lâm Đồng,9
+153,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Toán học,51140209,D90,19,Kết quả thi THPT QG,11,2017-08-13,2017-08-30,Lâm Đồng,9
+154,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Toán học,51140209,A02,19,Kết quả thi THPT QG,11,2017-08-13,2017-08-30,Lâm Đồng,9
+155,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Ngữ văn,51140217,C00,21,Kết quả thi THPT QG,10,2017-08-13,2017-08-30,Lâm Đồng,9
+156,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Ngữ văn,51140217,D14,21,Kết quả thi THPT QG,10,2017-08-13,2017-08-30,Lâm Đồng,9
+157,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Ngữ văn,51140217,D15,21,Kết quả thi THPT QG,10,2017-08-13,2017-08-30,Lâm Đồng,9
+158,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Ngữ văn,51140217,C20,21,Kết quả thi THPT QG,10,2017-08-13,2017-08-30,Lâm Đồng,9
+159,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Anh văn,51140231,D01,12,Kết quả thi THPT QG,11,2017-08-13,2017-08-30,Lâm Đồng,9
+160,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Anh văn,51140231,A01,12,Kết quả thi THPT QG,11,2017-08-13,2017-08-30,Lâm Đồng,9
+161,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Anh văn,51140231,D14,12,Kết quả thi THPT QG,11,2017-08-13,2017-08-30,Lâm Đồng,9
+162,C42,Cao đẳng sư phạm Đà Lạt,Cao đẳng,Sư phạm Anh văn,51140231,D15,12,Kết quả thi THPT QG,11,2017-08-13,2017-08-30,Lâm Đồng,9
+163,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Ngôn ngữ Anh,52220201,D01,21,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-22,Long An,3
+164,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Ngôn ngữ Anh,52220201,D12,21,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-22,Long An,3
+165,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Ngôn ngữ Anh,52220201,D66,21,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-22,Long An,3
+166,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Ngôn ngữ Anh,52220201,D15,21,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-22,Long An,3
+167,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Quản trị kinh doanh,52340101,A01,49,Kết quả thi THPT QG,18,2017-08-13,2017-08-22,Long An,3
+168,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Quản trị kinh doanh,52340101,B03,49,Kết quả thi THPT QG,18,2017-08-13,2017-08-22,Long An,3
+169,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Quản trị kinh doanh,52340101,D13,49,Kết quả thi THPT QG,18,2017-08-13,2017-08-22,Long An,3
+170,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Quản trị kinh doanh,52340101,C20,49,Kết quả thi THPT QG,18,2017-08-13,2017-08-22,Long An,3
+171,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Tài chính ngân hàng,52340201,B00,50,Kết quả thi THPT QG,19,2017-08-13,2017-08-22,Long An,3
+172,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Tài chính ngân hàng,52340101,D07,50,Kết quả thi THPT QG,19,2017-08-13,2017-08-22,Long An,3
+173,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Tài chính ngân hàng,52340101,A08,50,Kết quả thi THPT QG,19,2017-08-13,2017-08-22,Long An,3
+174,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Tài chính ngân hàng,52340101,C08,50,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-22,Long An,3
+175,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Kế toán,52340301,A00,47,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-22,Long An,3
+176,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Kế toán,52340101,A09,47,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-22,Long An,3
+177,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Luật kinh tế,52340101,C02,47,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-22,Long An,3
+178,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Luật kinh tế,52340101,C00,88,Kết quả thi THPT QG,17,2017-08-13,2017-08-22,Long An,3
+179,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Luật kinh tế,52340101,A00,88,Kết quả thi THPT QG,17,2017-08-13,2017-08-22,Long An,3
+180,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Luật kinh tế,52340101,C04,88,Kết quả thi THPT QG,17,2017-08-13,2017-08-22,Long An,3
+181,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Khoa học máy tính,52340101,C14,39,Kết quả thi THPT QG,18,2017-08-13,2017-08-22,Long An,3
+182,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Khoa học máy tính,52340101,A00,39,Kết quả thi THPT QG,18,2017-08-13,2017-08-22,Long An,3
+183,DLA,Đại học kinh tế công nghiệp Long An,Đại học,Khoa học máy tính,52340101,D08,39,Kết quả thi THPT QG,18,2017-08-13,2017-08-22,Long An,3
+184,DHT,Đại học Hồng Đức,Đại học,Sư phạm toán học,52140209,A00,41,Kết quả thi THPT QG,17.5,2017-08-08,2017-09-04,Thanh Hóa,6
+185,DHT,Đại học Hồng Đức,Đại học,Sư phạm toán học,52140209,A01,41,Kết quả thi THPT QG,17.5,2017-08-08,2017-09-04,Thanh Hóa,6
+186,DHT,Đại học Hồng Đức,Đại học,Sư phạm toán học,52140209,A02,41,Kết quả thi THPT QG,17.5,2017-08-08,2017-09-04,Thanh Hóa,6
+187,DHT,Đại học Hồng Đức,Đại học,Sư phạm vật lí,52140211,A00,40,Kết quả thi THPT QG,19.5,2017-08-08,2017-09-04,Thanh Hóa,6
+188,DHT,Đại học Hồng Đức,Đại học,Sư phạm vật lí,52140211,A01,40,Kết quả thi THPT QG,19.5,2017-08-08,2017-09-04,Thanh Hóa,6
+189,DHT,Đại học Hồng Đức,Đại học,Sư phạm hóa học,52140212,A00,38,Kết quả thi THPT QG,17.5,2017-08-08,2017-09-04,Thanh Hóa,6
+190,DHT,Đại học Hồng Đức,Đại học,Sư phạm hóa học,52140212,B00,38,Kết quả thi THPT QG,17.5,2017-08-08,2017-09-04,Thanh Hóa,6
+191,DHT,Đại học Hồng Đức,Đại học,Sư phạm hóa học,52140212,D07,38,Kết quả thi THPT QG,17.5,2017-08-08,2017-09-04,Thanh Hóa,6
+192,DHT,Đại học Hồng Đức,Đại học,Sư phạm sinh học,52140213,B00,40,Kết quả thi THPT QG,17.5,2017-08-08,2017-09-04,Thanh Hóa,6
+193,DHT,Đại học Hồng Đức,Đại học,Sư phạm sinh học,52140213,B02,40,Kết quả thi THPT QG,17.5,2017-08-08,2017-09-04,Thanh Hóa,6
+194,DHT,Đại học Hồng Đức,Đại học,Sư phạm sinh học,52140213,D08,40,Kết quả thi THPT QG,17.5,2017-08-08,2017-09-04,Thanh Hóa,6
+195,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành hóa học,52440112,A00,55,Kết quả thi THPT QG,15.5,2017-08-01,2017-08-20,Phú Thọ,4
+196,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành hóa học,52440112,A01,55,Kết quả thi THPT QG,15.5,2017-08-01,2017-08-20,Phú Thọ,4
+197,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành hóa học,52440112,B00,55,Kết quả thi THPT QG,15.5,2017-08-01,2017-08-20,Phú Thọ,4
+198,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành hóa học,52440112,D01,55,Kết quả thi THPT QG,15.5,2017-08-01,2017-08-20,Phú Thọ,4
+199,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành Công nghệ kỹ thuật Hóa học,52510401,A00,70,Kết quả thi THPT QG,15.5,2017-08-01,2017-08-20,Phú Thọ,4
+200,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành Công nghệ kỹ thuật Hóa học,52510401,A01,70,Kết quả thi THPT QG,15.5,2017-08-01,2017-08-20,Phú Thọ,4
+201,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành Công nghệ kỹ thuật Hóa học,52510401,B00,70,Kết quả thi THPT QG,15.5,2017-08-01,2017-08-20,Phú Thọ,4
+202,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành Công nghệ kỹ thuật Hóa học,52510401,D01,70,Kết quả thi THPT QG,15.5,2017-08-01,2017-08-20,Phú Thọ,4
+203,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành công nghệ kỹ thuật Môi trường,52510406,A00,35,Kết quả thi THPT QG,17.5,2017-08-01,2017-08-20,Phú Thọ,4
+204,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành công nghệ kỹ thuật Môi trường,52510406,A01,35,Kết quả thi THPT QG,17.5,2017-08-01,2017-08-20,Phú Thọ,4
+205,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành công nghệ kỹ thuật Môi trường,52510406,B00,35,Kết quả thi THPT QG,17.5,2017-08-01,2017-08-20,Phú Thọ,4
+206,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành công nghệ Sinh học,52420201,A00,25,Kết quả thi THPT QG,18.5,2017-08-01,2017-08-20,Phú Thọ,4
+207,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành công nghệ Sinh học,52420201,B00,25,Kết quả thi THPT QG,18.5,2017-08-01,2017-08-20,Phú Thọ,4
+208,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành công nghệ kỹ thuật Cơ khí,52510201,A00,50,Kết quả thi THPT QG,18.5,2017-08-01,2017-08-20,Phú Thọ,4
+209,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành công nghệ kỹ thuật Cơ khí,52510201,A01,50,Kết quả thi THPT QG,18.5,2017-08-01,2017-08-20,Phú Thọ,4
+210,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành công nghệ kỹ thuật Cơ khí,52510201,B00,50,Kết quả thi THPT QG,18.5,2017-08-01,2017-08-20,Phú Thọ,4
+211,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành công nghệ kỹ thuật Điện- Điện tử,52510301,A00,75,Kết quả thi THPT QG,18.5,2017-08-01,2017-08-20,Phú Thọ,4
+212,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành công nghệ kỹ thuật Điều khiển- Tự động hóa,52510303,B00,20,Kết quả thi THPT QG,20,2017-08-01,2017-08-20,Phú Thọ,4
+213,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành Công nghệ thông tin,52480201,A00,60,Kết quả thi THPT QG,21.5,2017-08-01,2017-08-20,Phú Thọ,4
+214,VUI,Đại học công nghiệp Việt Trì,Đại học,Kế toán,52340301,A00,55,Kết quả thi THPT QG,22.5,2017-08-01,2017-08-20,Phú Thọ,4
+215,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành Quản trị kinh doanh,52340101,A01,20,Kết quả thi THPT QG,15.5,2017-08-01,2017-08-20,Phú Thọ,4
+216,VUI,Đại học công nghiệp Việt Trì,Đại học,Ngành ngôn ngữ Anh,52220201,D01,35,Kết quả thi THPT QG,18.5,2017-08-01,2017-08-20,Phú Thọ,4
+217,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Toán học,51140209,A00,8,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-21,Bắc Giang,9
+218,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Tin học,51140201,A00,5,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-21,Bắc Giang,9
+219,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Tin học,51140201,A01,5,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-21,Bắc Giang,9
+220,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Tin học,51140201,D01,5,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-21,Bắc Giang,9
+221,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Ngữ Văn,51140217,C00,8,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-21,Bắc Giang,9
+222,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Ngữ Văn,51140217,C03,8,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-21,Bắc Giang,9
+223,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Ngữ Văn,51140217,C07,8,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-21,Bắc Giang,9
+224,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Lịch Sử,51140218,C00,5,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-21,Bắc Giang,9
+225,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Lịch Sử,51140218,C03,5,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-21,Bắc Giang,9
+226,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Lịch Sử,51140218,C12,5,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-21,Bắc Giang,9
+227,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Lịch Sử,51140218,D14,5,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-21,Bắc Giang,9
+228,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Tiếng Anh,51140231,A01,10,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-21,Bắc Giang,9
+229,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Sư phạm Tiếng Anh,51140231,D01,10,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-21,Bắc Giang,9
+230,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Giáo dục Tiểu học,51140202,A00,55,Kết quả thi THPT QG,17.5,2017-08-13,2017-08-21,Bắc Giang,9
+231,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Giáo dục Tiểu học,51140202,A01,55,Kết quả thi THPT QG,17.5,2017-08-13,2017-08-21,Bắc Giang,9
+232,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Giáo dục Tiểu học,51140202,C00,55,Kết quả thi THPT QG,17.5,2017-08-13,2017-08-21,Bắc Giang,9
+233,C18,Cao đẳng Ngô Gia Tự,Cao đẳng,Giáo dục Tiểu học,51140202,D01,55,Kết quả thi THPT QG,17.5,2017-08-13,2017-08-21,Bắc Giang,9
+234,LAH,Đại học Trần Quốc Tuấn,Đại học,Giáo viên giáo dục QP-AN,52140208,C00,69,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-26,Hải Dương,8
+235,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Ngôn ngữ Anh,52220201,D01,19,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,8
+236,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Ngôn ngữ Anh,52220201,D13,19,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,8
+237,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Ngôn ngữ Anh,52220201,D14,19,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,8
+238,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Ngôn ngữ Anh,52220201,D15,19,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,8
+239,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Quản trị kinh doanh,52340101,A00,50,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,8
+240,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Quản trị kinh doanh,52340101,A01,50,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,8
+241,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Quản trị kinh doanh,52340101,A06,50,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,8
+242,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Quản trị kinh doanh,52340101,C13,50,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,8
+243,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Tài chính - ngân hàng,52340201,A00,20,Kết quả thi THPT QG,18.5,2017-08-08,2017-08-20,TP HCM,8
+244,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Tài chính - ngân hàng,52340201,A01,20,Kết quả thi THPT QG,18.5,2017-08-08,2017-08-20,TP HCM,8
+245,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Tài chính - ngân hàng,52340201,A03,20,Kết quả thi THPT QG,18.5,2017-08-08,2017-08-20,TP HCM,8
+246,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Tài chính - ngân hàng,52340201,A07,20,Kết quả thi THPT QG,18.5,2017-08-08,2017-08-20,TP HCM,8
+247,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Kế toán,52340301,A01,30,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,8
+248,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Kế toán,52340301,B01,30,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,8
+249,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Kế toán,52340301,B02,30,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,8
+250,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Kế toán,52340301,C12,30,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,8
+251,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Truyền thông và mạng máy tính,52480102,A00,20,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,8
+252,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Truyền thông và mạng máy tính,52480102,A01,20,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,8
+253,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Truyền thông và mạng máy tính,52480102,A02,20,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,8
+254,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Kỹ thuật phần mềm,52480103,A00,20,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,8
+255,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Kỹ thuật phần mềm,52480103,A01,20,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,8
+256,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Kỹ thuật phần mềm,52480103,A04,20,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,8
+257,DCG,Đại học công nghệ thông tin Gia Định,Đại học,Kỹ thuật phần mềm,52480103,B00,20,Kết quả thi THPT QG,18,2017-08-08,2017-08-20,TP HCM,8
+258,DPX,Đại học dân lập Phú Xuân,Đại học,Công nghệ thông tin,52480201,A00,30,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,7
+259,DPX,Đại học dân lập Phú Xuân,Đại học,Công nghệ thông tin,52480201,B00,30,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,7
+260,DPX,Đại học dân lập Phú Xuân,Đại học,Công nghệ thông tin,52480201,D01,30,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,7
+261,DPX,Đại học dân lập Phú Xuân,Đại học,Công nghệ thông tin,52480201,A01,30,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,7
+262,DPX,Đại học dân lập Phú Xuân,Đại học,Công nghệ kỹ thuật điện - điện tử,52510301,A00,15,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-05,Hà Nội,7
+263,DPX,Đại học dân lập Phú Xuân,Đại học,Công nghệ kỹ thuật điện - điện tử,52510301,D01,15,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-05,Hà Nội,7
+264,DPX,Đại học dân lập Phú Xuân,Đại học,Công nghệ kỹ thuật điện - điện tử,52510301,A01,15,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-05,Hà Nội,7
+265,DPX,Đại học dân lập Phú Xuân,Đại học,Kế toán,52340301,A00,50,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,7
+266,DPX,Đại học dân lập Phú Xuân,Đại học,Kế toán,52340301,B00,50,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,7
+267,DPX,Đại học dân lập Phú Xuân,Đại học,Kế toán,52340301,D01,50,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,7
+268,DPX,Đại học dân lập Phú Xuân,Đại học,Tài chính - ngân hàng,52340201,A00,25,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,7
+269,DPX,Đại học dân lập Phú Xuân,Đại học,Tài chính - ngân hàng,52340201,B00,25,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,7
+270,DPX,Đại học dân lập Phú Xuân,Đại học,Tài chính - ngân hàng,52340201,D01,25,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,7
+271,DPX,Đại học dân lập Phú Xuân,Đại học,Tài chính - ngân hàng,52340201,A01,25,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,7
+272,DPX,Đại học dân lập Phú Xuân,Đại học,Quản trị kinh doanh,52340101,A00,35,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,7
+273,DPX,Đại học dân lập Phú Xuân,Đại học,Quản trị kinh doanh,52340101,B00,35,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,7
+274,DPX,Đại học dân lập Phú Xuân,Đại học,Quản trị kinh doanh,52340101,D01,35,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,7
+275,DPX,Đại học dân lập Phú Xuân,Đại học,Quản trị kinh doanh,52340101,A01,35,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-05,Hà Nội,7
+276,DPX,Đại học dân lập Phú Xuân,Đại học,Văn học,52220330,C00,20,Kết quả thi THPT QG,20,2017-08-13,2017-09-05,Hà Nội,7
+277,DPX,Đại học dân lập Phú Xuân,Đại học,Văn học,52220330,D01,20,Kết quả thi THPT QG,20,2017-08-13,2017-09-05,Hà Nội,7
+278,DPX,Đại học dân lập Phú Xuân,Đại học,Văn học,52220330,D15,20,Kết quả thi THPT QG,20,2017-08-13,2017-09-05,Hà Nội,7
+279,DPX,Đại học dân lập Phú Xuân,Đại học,Văn học,52220330,D11,20,Kết quả thi THPT QG,20,2017-08-13,2017-09-05,Hà Nội,7
+280,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Toán học,51140209,A00,10,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,9
+281,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Toán học,51140209,A01,10,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,9
+282,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Toán học,51140209,D07,10,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,9
+283,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Toán học,51140209,D08,10,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,9
+284,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Vật lí,51140211,A00,5,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-18,Gia Lai,9
+285,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Vật lí,51140211,A01,5,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-18,Gia Lai,9
+286,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Vật lí,51140211,A02,5,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-18,Gia Lai,9
+287,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Hóa học,51140212,A00,4,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,9
+288,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Hóa học,51140212,B00,4,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,9
+289,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Hóa học,51140212,D07,4,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,9
+290,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Hóa học,51140212,D08,4,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,9
+291,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Ngữ Văn,51140217,C00,9,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,9
+292,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Ngữ Văn,51140217,C14,9,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,9
+293,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Tiếng Anh,51140231,D01,6,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,9
+294,C38,Cao đẳng sư phạm Gia Lai,Cao đẳng,Sư phạm Tiếng Anh,51140231,A01,6,Kết quả thi THPT QG,15.5,2017-08-13,2017-08-18,Gia Lai,9
+295,TCU,Đại học thông tin liên lạc,Đại học,Công nghệ thông tin,52480201,A00,44,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-23,Hà Nội,3
+296,TCU,Đại học thông tin liên lạc,Đại học,Công nghệ thông tin,52480201,A01,44,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-23,Hà Nội,3
+297,TCU,Đại học thông tin liên lạc,Đại học,Công nghệ thông tin,52480201,C01,44,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-23,Hà Nội,3
+298,TCU,Đại học thông tin liên lạc,Đại học,Công nghệ thông tin,52480201,D01,44,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-23,Hà Nội,3
+299,TCU,Đại học thông tin liên lạc,Đại học,Kỹ thuật điện tử truyền thông,52520207,A00,72,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-23,Hà Nội,3
+300,TCU,Đại học thông tin liên lạc,Đại học,Kỹ thuật điện tử truyền thông,52520207,A01,72,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-23,Hà Nội,3
+301,TCU,Đại học thông tin liên lạc,Đại học,Kỹ thuật điện tử truyền thông,52520207,C01,72,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-23,Hà Nội,3
+302,TCU,Đại học thông tin liên lạc,Đại học,Kỹ thuật điện tử truyền thông,52520207,D01,72,Kết quả thi THPT QG,16.5,2017-08-13,2017-08-23,Hà Nội,3
+303,DHP,Đại học dân lập Hải Phòng ,Đại học,Việt Nam học,52220113,A00,62,Kết quả thi THPT QG,17.5,2017-08-13,2017-09-10,Hải Phòng,5
+304,DHP,Đại học dân lập Hải Phòng ,Đại học,Việt Nam học,52220113,C00,62,Kết quả thi THPT QG,17.5,2017-08-13,2017-09-10,Hải Phòng,5
+305,DHP,Đại học dân lập Hải Phòng ,Đại học,Việt Nam học,52220113,D01,62,Kết quả thi THPT QG,17.5,2017-08-13,2017-09-10,Hải Phòng,5
+306,DHP,Đại học dân lập Hải Phòng ,Đại học,Ngôn ngữ Anh,52220201,A01,42,Kết quả thi THPT QG,18.5,2017-08-13,2017-09-10,Hải Phòng,5
+307,DHP,Đại học dân lập Hải Phòng ,Đại học,Ngôn ngữ Anh,52220201,D01,42,Kết quả thi THPT QG,18.5,2017-08-13,2017-09-10,Hải Phòng,5
+308,DHP,Đại học dân lập Hải Phòng ,Đại học,Ngôn ngữ Anh,52220201,D14,42,Kết quả thi THPT QG,18.5,2017-08-13,2017-09-10,Hải Phòng,5
+309,DHP,Đại học dân lập Hải Phòng ,Đại học,Ngôn ngữ Anh,52220201,D15,42,Kết quả thi THPT QG,18.5,2017-08-13,2017-09-10,Hải Phòng,5
+310,DHP,Đại học dân lập Hải Phòng ,Đại học,Quản trị kinh doanh,52340101,A00,186,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,5
+311,DHP,Đại học dân lập Hải Phòng ,Đại học,Quản trị kinh doanh,52340101,A01,186,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,5
+312,DHP,Đại học dân lập Hải Phòng ,Đại học,Quản trị kinh doanh,52340101,D01,186,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,5
+313,DHP,Đại học dân lập Hải Phòng ,Đại học,Quản trị kinh doanh,52340101,D02,186,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,5
+314,DHP,Đại học dân lập Hải Phòng ,Đại học,Quản trị kinh doanh,52340101,D03,186,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,5
+315,DHP,Đại học dân lập Hải Phòng ,Đại học,Quản trị kinh doanh,52340101,D04,186,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,5
+316,DHP,Đại học dân lập Hải Phòng ,Đại học,Công nghệ thông tin,52480201,A00,59,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,5
+317,DHP,Đại học dân lập Hải Phòng ,Đại học,Công nghệ thông tin,52480201,A01,59,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,5
+318,DHP,Đại học dân lập Hải Phòng ,Đại học,Công nghệ thông tin,52480201,D07,59,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,5
+319,DHP,Đại học dân lập Hải Phòng ,Đại học,Công nghệ thông tin,52480201,D08,59,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,5
+320,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật điện - điện tử,52510301,A00,73,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,5
+321,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật điện - điện tử,52510301,A01,73,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,5
+322,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật điện - điện tử,52510301,B00,73,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,5
+323,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật điện - điện tử,52510301,D01,73,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,5
+324,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật môi trường,52510406,A00,82,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,5
+325,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật môi trường,52510406,A01,82,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,5
+326,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật môi trường,52510406,A02,82,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,5
+327,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật môi trường,52510406,B00,82,Kết quả thi THPT QG,16.5,2017-08-13,2017-09-10,Hải Phòng,5
+328,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật công trình XD,52580201,A00,84,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,5
+329,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật công trình XD,52580201,A01,84,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,5
+330,DHP,Đại học dân lập Hải Phòng ,Đại học,Kĩ thuật công trình XD,52580201,A04,84,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,5
+331,DHP,Đại học dân lập Hải Phòng ,Đại học,Nông nghiệp,52620101,A00,58,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,5
+332,DHP,Đại học dân lập Hải Phòng ,Đại học,Nông nghiệp,52620101,A01,58,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,5
+333,DHP,Đại học dân lập Hải Phòng ,Đại học,Nông nghiệp,52620101,A02,58,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,5
+334,DHP,Đại học dân lập Hải Phòng ,Đại học,Nông nghiệp,52620101,B00,58,Kết quả thi THPT QG,15.5,2017-08-13,2017-09-10,Hải Phòng,5
+335,LCS,Sĩ quan chính trị,Đại học,Giáo dục quốc phòng và an ninh,52140208,A00,19,Kết quả thi THPT QG,16.75,2017-08-13,2017-08-17,Bắc Ninh,4
+336,LCS,Sĩ quan chính trị,Đại học,Giáo dục quốc phòng và an ninh,52140208,C00,26,Kết quả thi THPT QG,23.25,2017-08-13,2017-08-17,Bắc Ninh,4
+337,LCS,Sĩ quan chính trị,Đại học,Giáo dục quốc phòng và an ninh,52140208,D01,15,Kết quả thi THPT QG,19.75,2017-08-13,2017-08-17,Bắc Ninh,4
