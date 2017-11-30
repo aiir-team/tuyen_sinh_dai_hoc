@@ -20,6 +20,8 @@ public class UniversityDetail {
     private Timestamp deadlineTime;
     private String geographic;
     private int univRank;
+    private int lastYearBaseMark;
+    private int lastYearAmountStudent;
     private Timestamp createdAt;
     private Timestamp updatedAt;
 
@@ -164,6 +166,26 @@ public class UniversityDetail {
     }
 
     @Basic
+    @Column(name = "last_year_base_mark", nullable = false)
+    public int getLastYearBaseMark() {
+        return lastYearBaseMark;
+    }
+
+    public void setLastYearBaseMark(int lastYearBaseMark) {
+        this.lastYearBaseMark = lastYearBaseMark;
+    }
+
+    @Basic
+    @Column(name = "last_year_amount_student", nullable = false)
+    public int getLastYearAmountStudent() {
+        return lastYearAmountStudent;
+    }
+
+    public void setLastYearAmountStudent(int lastYearAmountStudent) {
+        this.lastYearAmountStudent = lastYearAmountStudent;
+    }
+
+    @Basic
     @Column(name = "created_at", nullable = false)
     public Timestamp getCreatedAt() {
         return createdAt;
@@ -194,6 +216,8 @@ public class UniversityDetail {
         if (amountStudent != that.amountStudent) return false;
         if (Double.compare(that.totalScore, totalScore) != 0) return false;
         if (univRank != that.univRank) return false;
+        if (lastYearBaseMark != that.lastYearBaseMark) return false;
+        if (lastYearAmountStudent != that.lastYearAmountStudent) return false;
         if (univCode != null ? !univCode.equals(that.univCode) : that.univCode != null) return false;
         if (univName != null ? !univName.equals(that.univName) : that.univName != null) return false;
         if (univLevel != null ? !univLevel.equals(that.univLevel) : that.univLevel != null) return false;
@@ -231,6 +255,8 @@ public class UniversityDetail {
         result = 31 * result + (deadlineTime != null ? deadlineTime.hashCode() : 0);
         result = 31 * result + (geographic != null ? geographic.hashCode() : 0);
         result = 31 * result + univRank;
+        result = 31 * result + lastYearBaseMark;
+        result = 31 * result + lastYearAmountStudent;
         result = 31 * result + (createdAt != null ? createdAt.hashCode() : 0);
         result = 31 * result + (updatedAt != null ? updatedAt.hashCode() : 0);
         return result;

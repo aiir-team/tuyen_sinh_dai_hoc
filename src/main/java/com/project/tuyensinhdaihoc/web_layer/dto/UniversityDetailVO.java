@@ -21,7 +21,31 @@ public class UniversityDetailVO {
     private String geographic;
     private Integer univRank;
 
+    private Integer lastYearBaseMark;
+    private Integer lastYearAmountStudent;
+
     public UniversityDetailVO() {
+
+    }
+
+    public UniversityDetailVO(Integer id, Integer order, String univCode, String univName, String univLevel, String branName, String branCode, String combCode, Integer amountStudent, String typeAdmission, Double totalScore, Timestamp receiveTime, Timestamp deadlineTime, String geographic, Integer univRank, Integer lastYearBaseMark, Integer lastYearAmountStudent) {
+        this.id = id;
+        this.order = order;
+        this.univCode = univCode;
+        this.univName = univName;
+        this.univLevel = univLevel;
+        this.branName = branName;
+        this.branCode = branCode;
+        this.combCode = combCode;
+        this.amountStudent = amountStudent;
+        this.typeAdmission = typeAdmission;
+        this.totalScore = totalScore;
+        this.receiveTime = receiveTime;
+        this.deadlineTime = deadlineTime;
+        this.geographic = geographic;
+        this.univRank = univRank;
+        this.lastYearBaseMark = lastYearBaseMark;
+        this.lastYearAmountStudent = lastYearAmountStudent;
     }
 
     public UniversityDetailVO(Integer id, Integer order, String univCode, String univName, String univLevel, String branName, String branCode, String combCode, Integer amountStudent, String typeAdmission, Double totalScore, Timestamp receiveTime, Timestamp deadlineTime, String geographic, Integer univRank) {
@@ -57,6 +81,8 @@ public class UniversityDetailVO {
         this.setUnivRank(univDetail.getUnivRank());
         this.setReceiveTime(univDetail.getReceiveTime());
         this.setDeadlineTime(univDetail.getDeadlineTime());
+        this.setLastYearBaseMark(univDetail.getLastYearBaseMark());
+        this.setLastYearAmountStudent(univDetail.getLastYearAmountStudent());
     }
 
     public Integer getId() {
@@ -177,5 +203,22 @@ public class UniversityDetailVO {
 
     public void setUnivRank(Integer univRank) {
         this.univRank = univRank;
+    }
+
+
+    public Integer getLastYearBaseMark() {
+        return lastYearBaseMark;
+    }
+
+    public void setLastYearBaseMark(Integer lastYearBaseMark) {
+        this.lastYearBaseMark = lastYearBaseMark;
+    }
+
+    public Integer getLastYearAmountStudent() {
+        return lastYearAmountStudent;
+    }
+
+    public void setLastYearAmountStudent(Integer lastYearAmountStudent) {
+        this.lastYearAmountStudent = lastYearAmountStudent;
     }
 }

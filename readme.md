@@ -178,7 +178,9 @@ CREATE TABLE university_detail
   receive_time      TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   deadline_time     TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   geographic        NVARCHAR(256) DEFAULT 'Hà Nội' NOT NULL,
-  univ_rank    INTEGER(11) DEFAULT 101 NOT NULL,
+  univ_rank    INTEGER(11) DEFAULT 10 NOT NULL,
+  last_year_base_mark  INTEGER(11) NOT NULL,
+  last_year_amount_student INTEGER(11) NOT NULL,
   created_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   updated_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (id)
@@ -186,13 +188,12 @@ CREATE TABLE university_detail
   ENGINE = InnoDB DEFAULT CHARSET=utf8;
 
 SET  FOREIGN_KEY_CHECKS=1;
+
 ```
 
 - Sau khi tạo được bảng thì mở terminal và import dữ liệu từ file csv.
 ```mysql
-
-mysqlimport --ignore-lines=1 --fields-terminated-by=, --columns='id,univ_code,univ_name,univ_level,branch_name,branch_code,combination_code,amount_student,type_admission,total_score,receive_time,deadline_time,geographic,univ_rank' --local -u root -p tsdh ~/path/university_detail.csv
-
+mysqlimport --ignore-lines=1 --fields-terminated-by=, --columns='id,univ_code,univ_name,univ_level,branch_name,branch_code,combination_code,amount_student,type_admission,total_score,receive_time,deadline_time,geographic,univ_rank,last_year_base_mark,last_year_amount_student' --local -u root -p tsdh ~/Downloads/university_detail.csv
 ```
 
 
