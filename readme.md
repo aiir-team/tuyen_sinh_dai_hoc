@@ -241,4 +241,55 @@ https://docs.google.com/spreadsheets/d/1PbbOMf50mBpeOUteTR156ar_XSlYUNQ3-LstCjJS
 
 
 #### 30/11/2017
- 
+- Update table: 
+```mysql
+SET  FOREIGN_KEY_CHECKS=0;
+
+DROP TABLE IF EXISTS universal_point;
+CREATE TABLE universal_point
+(
+  id              INTEGER(11)  NOT NULL AUTO_INCREMENT,
+  block_name      NVARCHAR(64)  NOT NULL,
+  less1           INTEGER(11) NOT NULL,
+  less2           INTEGER(11) NOT NULL,
+  less3           INTEGER(11) NOT NULL,
+  less4           INTEGER(11) NOT NULL,
+  less5           INTEGER(11) NOT NULL,
+  less6           INTEGER(11) NOT NULL,
+  less7           INTEGER(11) NOT NULL,
+  less8           INTEGER(11) NOT NULL,
+  less9           INTEGER(11) NOT NULL,
+  less10           INTEGER(11) NOT NULL,
+  less11           INTEGER(11) NOT NULL,
+  less12           INTEGER(11) NOT NULL,
+  less13           INTEGER(11) NOT NULL,
+  less14           INTEGER(11) NOT NULL,
+  less15           INTEGER(11) NOT NULL,
+  less16           INTEGER(11) NOT NULL,
+  less17           INTEGER(11) NOT NULL,
+  less18           INTEGER(11) NOT NULL,
+  less19           INTEGER(11) NOT NULL,
+  less20           INTEGER(11) NOT NULL,
+  less21           INTEGER(11) NOT NULL,
+  less22           INTEGER(11) NOT NULL,
+  less23           INTEGER(11) NOT NULL,
+  less24           INTEGER(11) NOT NULL,
+  less25           INTEGER(11) NOT NULL,
+  less26           INTEGER(11) NOT NULL,
+  less27           INTEGER(11) NOT NULL,
+  less28           INTEGER(11) NOT NULL,
+  less29           INTEGER(11) NOT NULL,
+  less30           INTEGER(11) NOT NULL,
+  created_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (id)
+)
+  ENGINE = InnoDB DEFAULT CHARSET=utf8;
+
+SET  FOREIGN_KEY_CHECKS=1;
+```
+
+- Open terminal: 
+```mysql
+mysqlimport --ignore-lines=1 --fields-terminated-by=, --columns='id,block_name,less1,less2,less3,less4,less5,less6,less7,less8,less9,less10,less11,less12,less13,less14,less15,less16,less17,less18,less19,less20,less21,less22,less23,less24,less25,less26,less27,less28,less29,less30' --local -u root -p tsdh universal_point.csv
+```
