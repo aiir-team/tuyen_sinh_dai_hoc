@@ -10,19 +10,16 @@ public class Test {
         String s = String.format("%.2f", d);
         int value = Integer.valueOf(s.split("\\.")[0]);
         int t1 = Integer.valueOf(s.split("\\.")[1]);;
-//
-//        if(13 <= t1 && t1 <= 37) {
-//            value += 0.25;
-//        } else if (38 <= t1 && t1 <= 62) {
-//            value += 0.50;
-//        } else if (63 <= t1 && t1 <= 87) {
-//            value += 0.75;
-//        } else if (88 <= t1 && t1 <= 99) {
-//            value += 1.0;
-//        }
-//        return value;
 
-
+        if(13 <= t1 && t1 <= 37) {
+            value += 0.25;
+        } else if (38 <= t1 && t1 <= 62) {
+            value += 0.50;
+        } else if (63 <= t1 && t1 <= 87) {
+            value += 0.75;
+        } else if (88 <= t1 && t1 <= 99) {
+            value += 1.0;
+        }
 
         //tao hai ma tran
         int a[][]={{1,3,4},{3,4,5}};

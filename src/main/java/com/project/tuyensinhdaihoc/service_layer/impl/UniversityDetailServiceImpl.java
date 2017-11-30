@@ -55,11 +55,6 @@ public class UniversityDetailServiceImpl implements UniversityDetailService {
     }
 
     @Override
-    public List<String> findAllUnivName() {
-        return universityDetailRepo.findAllDistinctUniversityName();
-    }
-
-    @Override
     public List<UnivNameVO> findAllUnivNameVO() {
         List<UnivNameVO> univNameVOList = new ArrayList<>();
         List<Object> listTemp = universityDetailRepo.findDistinctByUnivCodeAndUnivName();
@@ -76,13 +71,13 @@ public class UniversityDetailServiceImpl implements UniversityDetailService {
 
     public Double computeAdmissionProb(Double totalScore, UniversityDetail university) {
         int rank = university.getUnivRank();
-        List<UniversalPointVO> dest = universalPointService.findUniversalPointById(0);
+        List<UniversalPointVO> dest = universalPointService.findAllUniversalPointVO();
         List<Double> distCurrYear = dest.get(0).getValueList();
         List<Double> distLastYear = dest.get(4).getValueList();
 
         int rankTotal = totalScore.intValue();
         Double sumLastDist = 0.0;
-        for (int i = 30; i >= rankTotal; i-- ) {
+        for (int i = 29; i >= rankTotal; i-- ) {
             sumLastDist += distLastYear.get(i);
         }
 
@@ -91,7 +86,7 @@ public class UniversityDetailServiceImpl implements UniversityDetailService {
 
         Double sumCurrDist = 0.0;
         int i;
-        for (i = 30; i >= rankTotal; i-- ) {
+        for (i = 29; i >= rankTotal; i-- ) {
             sumCurrDist += distCurrYear.get(i);
             if (sumCurrDist > sumLastDist) break;
         }
@@ -149,19 +144,13 @@ public class UniversityDetailServiceImpl implements UniversityDetailService {
             score[i] = univ.getTotalScore();
             rank[i] = (double) univ.getUnivRank();
 
-            String subName = "";
+            Double maxScore = 0.0;
             for (CombinationVO comVO : combinationVOList) {
                 if (univ.getCombinationCode().equals(comVO.getCode())) {
-                    subName = comVO.getSubName1();
+                    maxScore = comVO.getTotalScore();
                 }
             }
-//            Double mainScore = 0.0;
-//            for (SubjectScoreVO subVO : subjectScoreVOS) {
-//                if (subName.equals(subVO.getSubName())) {
-//                    mainScore = subVO.getSubScore();
-//                }
-//            }
-            mainSubject[i] = computeAdmissionProb(userInputVO.getTotalScore(), univ);
+            mainSubject[i] = computeAdmissionProb(maxScore, univ);
         }
 
         // 4.1 Get set of weights
@@ -173,14 +162,16 @@ public class UniversityDetailServiceImpl implements UniversityDetailService {
         }
 
         //5. Run algorithms
-        Integer[] outputResult = Algo.modelTOPSIS(arrayId, amountStudent, score, rank, mainSubject, weights);
+        ArrayList<Integer> outputResult = Algo.modelTOPSIS(arrayId, amountStudent, score, rank, mainSubject, weights);
 
         //6. Show result
         List<UniversityDetailVO> universityDetailVOList = new ArrayList<>();
-        for(int i = 0; i < outputResult.length; i++) {
+        int i = 0;
+        for(Integer ix: outputResult) {
             for(UniversityDetail univDetail: universityDetailList) {
-                if(outputResult[i] == univDetail.getId()) {
+                if(ix == univDetail.getId()) {
                     universityDetailVOList.add(new UniversityDetailVO(univDetail, (i+1)));
+                    i++;
                     break;
                 }
             }

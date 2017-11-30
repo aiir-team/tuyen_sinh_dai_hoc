@@ -32,11 +32,6 @@ public class UniversalPointServiceImpl implements UniversalPointService {
     }
 
     @Override
-    public List<String> findAllLabelBlockName() {
-        return universalPointRepo.findAllBlockName();
-    }
-
-    @Override
     public List<UniversalPointVO> findUniversalPointById(Integer id) {
         List<UniversalPointVO> universalPointVOList = new ArrayList<>();
         List<UniversalPoint> universalPointList = universalPointRepo.findById(id);

@@ -24,15 +24,6 @@ import java.util.List;
 @SessionScope
 public class AdvisoryController extends BaseController {
 
-    private List<String> branchList;
-    private List<String> univLevelList;
-    private List<String> subjectList;
-    private List<String> geographicList;
-    private List<Double> priorityScoreList;
-    private List<Double> regionScoreList;
-    private List<Integer> weightList;
-
-
     private final UniversityDetailService universityDetailService;
     private final SubjectService subjectService;
 

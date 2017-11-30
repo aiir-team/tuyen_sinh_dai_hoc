@@ -14,7 +14,4 @@ public interface CombinationRepo extends JpaRepository<Combination, Integer> {
 
     @Query(value = "SELECT cb FROM Combination cb WHERE cb.idSub1 IN (?1, ?2, ?3) AND cb.idSub2 IN (?1, ?2, ?3) AND cb.idSub3 IN (?1, ?2, ?3)")
     List<Combination> findByIdSub1AndIdSub2AndIdSub3(Integer id1, Integer id2, Integer id3);
-
-    @Query("SELECT ud.geographic FROM UniversityDetail ud")
-    List<Combination> findBy(String x1, String x2, String x3);
 }

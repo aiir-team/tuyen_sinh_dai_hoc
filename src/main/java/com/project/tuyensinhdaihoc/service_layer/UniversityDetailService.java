@@ -14,8 +14,6 @@ public interface UniversityDetailService {
 
     List<String> findAllUnivGeographic();
 
-    List<String> findAllUnivName();
-
     List<UnivNameVO> findAllUnivNameVO();
 
     List<UniversityDetailVO> HTGQDBasedOn(UserInputVO userInputVO);
