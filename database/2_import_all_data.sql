@@ -80,3 +80,7 @@ mysqlimport --ignore-lines=1 --fields-terminated-by=, --columns='id,univ_code,un
 
 
 
+mysqlimport --ignore-lines=1 --fields-terminated-by=, --columns='id,code,id_sub1,id_sub2,id_sub3' --local -u root -p tsdh combination.csv
+
+
+mysqlimport --ignore-lines=1 --fields-terminated-by=, --columns='id,name' --local -u root -p tsdh subject.csv

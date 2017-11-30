@@ -296,3 +296,15 @@ mysqlimport --ignore-lines=1 --fields-terminated-by=, --columns='id,block_name,l
 ```
 
 http://localhost:8080/rest/chart?id=1
+
+
+
+- Update database 
+
+```mysql
+mysqlimport --ignore-lines=1 --fields-terminated-by=, --columns='id,code,id_sub1,id_sub2,id_sub3' --local -u root -p tsdh combination.csv
+```
+
+```mysql
+mysqlimport --ignore-lines=1 --fields-terminated-by=, --columns='id,name' --local -u root -p tsdh subject.csv
+```
