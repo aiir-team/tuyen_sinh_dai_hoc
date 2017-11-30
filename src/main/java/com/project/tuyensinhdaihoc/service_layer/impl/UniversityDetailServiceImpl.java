@@ -101,8 +101,6 @@ public class UniversityDetailServiceImpl implements UniversityDetailService {
                             userInputVO.getUnivLevel(), userInputVO.getUnivRegion(),
                             comb.getCode(), comb.getTotalScore());
             universityDetailList.addAll(list);
-
-
         }
 
         //4. Prepare input matrix
@@ -133,13 +131,19 @@ public class UniversityDetailServiceImpl implements UniversityDetailService {
                     mainScore = subVO.getSubScore();
                 }
             }
-
             mainSubject[i] = mainScore;
         }
 
+        // 4.1 Get set of weights
+        int[] weights = new int[userInputVO.getWeightVOList().size()];
+        int j = 0;
+        for(WeightVO wVO: userInputVO.getWeightVOList()) {
+            weights[j] = wVO.getWeight();
+            j++;
+        }
 
         //5. Run algorithms
-        Integer[] outputResult = Algo.modelTOPSIS(arrayId, amountStudent, score, rank, mainSubject, Algo.oriWeight);
+        Integer[] outputResult = Algo.modelTOPSIS(arrayId, amountStudent, score, rank, mainSubject, weights);
 
         //6. Show result
         List<UniversityDetailVO> universityDetailVOList = new ArrayList<>();

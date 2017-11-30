@@ -30,6 +30,7 @@ public class AdvisoryController extends BaseController {
     private List<String> geographicList;
     private List<Double> priorityScoreList;
     private List<Double> regionScoreList;
+    private List<Integer> weightList;
 
 
     private final UniversityDetailService universityDetailService;
@@ -50,6 +51,7 @@ public class AdvisoryController extends BaseController {
         model.addAttribute("geographicList", getGeographicList());
         model.addAttribute("priorityScoreList", getPriorityScoreList());
         model.addAttribute("regionScoreList", getRegionScoreList());
+        model.addAttribute("weightList", getWeightList());
 
 
         model.addAttribute("userInputData", initialUserInputData());
@@ -103,6 +105,7 @@ public class AdvisoryController extends BaseController {
             subjectScoreVOList.add(new SubjectScoreVO(sub));
         }
         userInputVO.setSubjectScoreVOList(subjectScoreVOList);
+        userInputVO.setWeightVOList(InitialData.initSetOfWeights());
         return userInputVO;
     }
 
@@ -112,5 +115,9 @@ public class AdvisoryController extends BaseController {
 
     public List<Double> getRegionScoreList() {
         return InitialData.getAllRegionScoreList();
+    }
+
+    public List<Integer> getWeightList() {
+        return InitialData.initWeightList();
     }
 }
