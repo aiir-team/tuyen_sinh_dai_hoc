@@ -76,7 +76,7 @@ public class UniversityDetailServiceImpl implements UniversityDetailService {
 
     public Double computeAdmissionProb(Double totalScore, UniversityDetail university) {
         int rank = university.getUnivRank();
-        List<UniversalPointVO> dest = universalPointService.findUniversalPointById(0);
+        List<UniversalPointVO> dest = universalPointService.findAllUniversalPointVO();
         List<Double> distCurrYear = dest.get(0).getValueList();
         List<Double> distLastYear = dest.get(4).getValueList();
 
