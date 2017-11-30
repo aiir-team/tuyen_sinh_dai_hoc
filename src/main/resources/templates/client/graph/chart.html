@@ -4,6 +4,7 @@
 
 <!-- Custom style -->
 <link href="../../../static/css/client/advisory.css" th:href="@{/css/client/advisory.css}" rel="stylesheet"/>
+<script type="text/javascript" th:src="@{/js/chart.min.js}"></script>
 
 <!--Goi cac thu vien js can dung o day: /js/client/...-->
 
@@ -15,7 +16,7 @@
 
 <div class="container main-content">
     <div class="row">
-        <div id="body_wrapper">
+        <div id="body_wrapper">`
 
             <div class="box_path">
                 <ul>
@@ -30,8 +31,8 @@
                     </li>
                     >>
                     <li>
-                        <a title=" Nhóm ngành Tài chính - Ngân hàng- Bảo hiểm">
-                            <span>Nhóm ngành Tài chính - Ngân hàng- Bảo hiểm</span>
+                        <a title=" Xem phổ điểm thi">
+                            <span> Xem phổ điểm thi</span>
                         </a>
                     </li>
                 </ul>
@@ -41,9 +42,28 @@
 
             <div class="col-xs-12 col-md-8 col-lg-9 col_right">
                 <div class="top_content">
-                    Show chart here!
+                    Phổ điểm thi THPT quốc gia năm 2017
                 </div>
 
+                <form th:action="@{/advisory/chart}" class="form-horizontal" method="post">
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="blockName">Chọn khối* : </label>
+                        <div class="col-sm-7">
+                            <select class="form-control" name="blockname" id="blockname">
+                                <option value="" th:disabled="disabled" selected="true">Chọn trường dưới đây.</option>
+                                <option th:each="blockVO : ${blockNamePointVOList}"
+                                        th:value="${blockVO.id}"
+                                        th:text="${blockVO.blockName}"
+                                        th:selected="(${blockVO.blockName} == *{blockname})">
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+
+                <hr />
+
+                <canvas id="markDist" width="1000" height="500"></canvas>
                 <!--
                 Ong co the code o day
                 -->
@@ -56,4 +76,56 @@
 
 <footer th:replace="client/layout :: footer"></footer>
 </body>
+<script>
+
+/*<![CDATA[*/
+
+
+    id = 1;
+    // Call data
+    $.ajax({
+        type: 'GET',
+        cache: false,
+        async: true,
+        url: '/rest/chart?id=' + id,
+        dataType: 'json',
+        success: function (data) {
+            console.log(data[0]);
+            var labelS = data[0].labelList;
+            var dataS = data[0].valueList;
+
+
+            for (var i = 0; i < dataS.length; i++) {
+                labelS[i] =  " < "  + labelS[i].substring(4);
+                dataS[i] = dataS[i] * 100;
+            }
+
+            var parent = $("#markDist").parent();
+            $("#markDist").remove();
+            parent.append('<canvas id="markDist" width="1000" height="500"><canvas>');
+            new Chart($("#markDist"), {
+                data: {
+                    datasets: [{
+                                data: dataS,
+                                label: 'Tỉ lệ thí sinh đạt điểm',
+                                backgroundColor:
+                                    "#36A2EB"
+                            }],
+                    labels: labelS
+                },
+                type: 'bar',
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                }
+            });
+        },
+        error: function (xhr, status, error) {
+            console.log(xhr);
+        }
+    });
+
+ /*]]>*/
+
+</script>
 </html>

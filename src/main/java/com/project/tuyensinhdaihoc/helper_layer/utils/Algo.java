@@ -87,7 +87,7 @@ public class Algo {
             double x2 = Math.pow(maxScore - rScore[i], 2.0);
             double x3 = Math.pow(maxRank - rRank[i], 2.0);
             double x4 = Math.pow(maxSubject - rSubject[i], 2.0);
-            double ss = Math.sqrt(x1+ x2 + x3 + x4);
+            double ss = Math.sqrt(x1 + x2 + x3 + x4);
 
             double t1 = Math.pow(minAmount - rAmount[i], 2.0);
             double t2 = Math.pow(minScore - rScore[i], 2.0);

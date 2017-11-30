@@ -71,6 +71,15 @@ public class UniversityDetailServiceImpl implements UniversityDetailService {
         return univNameVOList;
     }
 
+    public Double computeAdmissionProb(Double totalSCore, UniversityDetail university) {
+        int rank = university.getUnivRank();
+
+
+        Double estimatedScore = 24.0;
+
+        Double prob = Math.exp((totalSCore - estimatedScore) / 10.0);
+        return prob;
+    }
 
     @Override
     public List<UniversityDetailVO> HTGQDBasedOn(UserInputVO userInputVO) {
