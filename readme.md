@@ -294,3 +294,5 @@ SET  FOREIGN_KEY_CHECKS=1;
 ```mysql
 mysqlimport --ignore-lines=1 --fields-terminated-by=, --columns='id,block_name,less1,less2,less3,less4,less5,less6,less7,less8,less9,less10,less11,less12,less13,less14,less15,less16,less17,less18,less19,less20,less21,less22,less23,less24,less25,less26,less27,less28,less29,less30' --local -u root -p tsdh universal_point.csv
 ```
+
+http://localhost:8080/rest/chart?id=1

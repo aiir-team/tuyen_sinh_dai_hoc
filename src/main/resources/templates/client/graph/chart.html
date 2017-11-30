@@ -45,6 +45,24 @@
                     Phổ điểm thi THPT quốc gia năm 2017
                 </div>
 
+                <form th:action="@{/advisory/chart}" class="form-horizontal" method="post">
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="blockName">Chọn khối* : </label>
+                        <div class="col-sm-7">
+                            <select class="form-control" name="blockname" id="blockname">
+                                <option value="" th:disabled="disabled" selected="true">Chọn trường dưới đây.</option>
+                                <option th:each="blockVO : ${blockNamePointVOList}"
+                                        th:value="${blockVO.id}"
+                                        th:text="${blockVO.blockName}"
+                                        th:selected="(${blockVO.blockName} == *{blockname})">
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+
+                <hr />
+
                 <canvas id="markDist" width="1000" height="500"></canvas>
                 <!--
                 Ong co the code o day

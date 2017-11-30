@@ -1,6 +1,7 @@
 package com.project.tuyensinhdaihoc.web_layer.controller.client;
 
 import com.project.tuyensinhdaihoc.service_layer.UniversalPointService;
+import com.project.tuyensinhdaihoc.web_layer.dto.BlockNamePointVO;
 import com.project.tuyensinhdaihoc.web_layer.dto.UniversalPointVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -15,7 +16,6 @@ import java.util.List;
 public class ChartController {
 
     private final UniversalPointService universalPointService;
-    private List<UniversalPointVO> universalPointVOList;
 
     @Autowired
     public ChartController(UniversalPointService universalPointService) {
@@ -25,10 +25,15 @@ public class ChartController {
     @GetMapping("/chart")
     public String showChart(Model model) {
         model.addAttribute("universalPointVOList", getUniversalPointVOList());
+        model.addAttribute("blockNamePointVOList", getBlockNamePointVOList());
         return "client/graph/chart";
     }
 
     private List<UniversalPointVO> getUniversalPointVOList() {
         return universalPointService.findAllUniversalPointVO();
+    }
+
+    public List<BlockNamePointVO> getBlockNamePointVOList() {
+        return universalPointService.findAllBlockNamePointVO();
     }
 }
