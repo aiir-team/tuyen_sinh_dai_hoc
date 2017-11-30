@@ -80,50 +80,65 @@
 
 /*<![CDATA[*/
 
+    function reload(id) {
 
-    id = 1;
-    // Call data
-    $.ajax({
-        type: 'GET',
-        cache: false,
-        async: true,
-        url: '/rest/chart?id=' + id,
-        dataType: 'json',
-        success: function (data) {
-            console.log(data[0]);
-            var labelS = data[0].labelList;
-            var dataS = data[0].valueList;
+        //id = 1;
+        // Call data
+        $.ajax({
+            type: 'GET',
+            cache: false,
+            async: true,
+            url: '/rest/chart?id=' + id,
+            dataType: 'json',
+            success: function (data) {
+                console.log(data[0]);
+                var labelS = data[0].labelList;
+                var dataS = data[0].valueList;
 
 
-            for (var i = 0; i < dataS.length; i++) {
-                labelS[i] =  " < "  + labelS[i].substring(4);
-                dataS[i] = dataS[i] * 100;
-            }
-
-            var parent = $("#markDist").parent();
-            $("#markDist").remove();
-            parent.append('<canvas id="markDist" width="1000" height="500"><canvas>');
-            new Chart($("#markDist"), {
-                data: {
-                    datasets: [{
-                                data: dataS,
-                                label: 'Tỉ lệ thí sinh đạt điểm',
-                                backgroundColor:
-                                    "#36A2EB"
-                            }],
-                    labels: labelS
-                },
-                type: 'bar',
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
+                for (var i = 0; i < dataS.length; i++) {
+                    labelS[i] =  " < "  + labelS[i].substring(4);
+                    dataS[i] = dataS[i] * 100;
                 }
-            });
-        },
-        error: function (xhr, status, error) {
-            console.log(xhr);
-        }
-    });
+
+                var parent = $("#markDist").parent();
+                $("#markDist").remove();
+                parent.append('<canvas id="markDist" width="1000" height="500"><canvas>');
+                new Chart($("#markDist"), {
+                    data: {
+                        datasets: [{
+                                    data: dataS,
+                                    label: 'Tỉ lệ thí sinh đạt điểm',
+                                    backgroundColor:
+                                        "#36A2EB"
+                                }],
+                        labels: labelS
+                    },
+                    type: 'bar',
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        scales: {
+                            yAxes: [{
+                              scaleLabel: {
+                                display: true,
+                                labelString: 'Tỉ lệ phần trăm (%)'
+                              }
+                            }]
+                          }
+                    }
+                });
+            },
+            error: function (xhr, status, error) {
+                console.log(xhr);
+            }
+        });
+     }
+
+     $("#blockname").change(function() {
+        console.log($("#blockname").val());
+        reload($("#blockname").val());
+     });
 
  /*]]>*/
 

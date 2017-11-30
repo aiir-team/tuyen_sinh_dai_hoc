@@ -8,6 +8,7 @@ import com.project.tuyensinhdaihoc.data_access_layer.repository.SubjectRepo;
 import com.project.tuyensinhdaihoc.data_access_layer.repository.UniversityDetailRepo;
 import com.project.tuyensinhdaihoc.helper_layer.utils.Algo;
 import com.project.tuyensinhdaihoc.helper_layer.utils.Calculate;
+import com.project.tuyensinhdaihoc.service_layer.UniversalPointService;
 import com.project.tuyensinhdaihoc.service_layer.UniversityDetailService;
 import com.project.tuyensinhdaihoc.web_layer.dto.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,12 +23,14 @@ public class UniversityDetailServiceImpl implements UniversityDetailService {
     private final UniversityDetailRepo universityDetailRepo;
     private final SubjectRepo subjectRepo;
     private final CombinationRepo combinationRepo;
+    private final UniversalPointService universalPointService;
 
     @Autowired
-    public UniversityDetailServiceImpl(UniversityDetailRepo universityDetailRepo, SubjectRepo subjectRepo, CombinationRepo combinationRepo) {
+    public UniversityDetailServiceImpl(UniversityDetailRepo universityDetailRepo, SubjectRepo subjectRepo, CombinationRepo combinationRepo, UniversalPointService universalPointService) {
         this.universityDetailRepo = universityDetailRepo;
         this.subjectRepo = subjectRepo;
         this.combinationRepo = combinationRepo;
+        this.universalPointService = universalPointService;
     }
 
 
@@ -71,13 +74,31 @@ public class UniversityDetailServiceImpl implements UniversityDetailService {
         return univNameVOList;
     }
 
-    public Double computeAdmissionProb(Double totalSCore, UniversityDetail university) {
+    public Double computeAdmissionProb(Double totalScore, UniversityDetail university) {
         int rank = university.getUnivRank();
+        List<UniversalPointVO> dest = universalPointService.findUniversalPointById(0);
+        List<Double> distCurrYear = dest.get(0).getValueList();
+        List<Double> distLastYear = dest.get(4).getValueList();
 
+        int rankTotal = totalScore.intValue();
+        Double sumLastDist = 0.0;
+        for (int i = 30; i >= rankTotal; i-- ) {
+            sumLastDist += distLastYear.get(i);
+        }
 
-        Double estimatedScore = 24.0;
+        // multiply with student amount ratio
+        sumLastDist = sumLastDist * university.getAmountStudent() / university.getLastYearAmountStudent();
 
-        Double prob = Math.exp((totalSCore - estimatedScore) / 10.0);
+        Double sumCurrDist = 0.0;
+        int i;
+        for (i = 30; i >= rankTotal; i-- ) {
+            sumCurrDist += distCurrYear.get(i);
+            if (sumCurrDist > sumLastDist) break;
+        }
+
+        Double estimatedScore = i + Math.random() * 3;
+
+        Double prob = Math.exp((totalScore - estimatedScore) / 10.0);
         return prob;
     }
 
@@ -134,13 +155,13 @@ public class UniversityDetailServiceImpl implements UniversityDetailService {
                     subName = comVO.getSubName1();
                 }
             }
-            Double mainScore = 0.0;
-            for (SubjectScoreVO subVO : subjectScoreVOS) {
-                if (subName.equals(subVO.getSubName())) {
-                    mainScore = subVO.getSubScore();
-                }
-            }
-            mainSubject[i] = mainScore;
+//            Double mainScore = 0.0;
+//            for (SubjectScoreVO subVO : subjectScoreVOS) {
+//                if (subName.equals(subVO.getSubName())) {
+//                    mainScore = subVO.getSubScore();
+//                }
+//            }
+            mainSubject[i] = computeAdmissionProb(userInputVO.getTotalScore(), univ);
         }
 
         // 4.1 Get set of weights
