@@ -27,3 +27,55 @@ SET  FOREIGN_KEY_CHECKS=1;
 
 
 mysqlimport --ignore-lines=1 --fields-terminated-by=, --columns='id,univ_code,univ_name,univ_level,branch_name,branch_code,combination_code,amount_student,type_admission,total_score,receive_time,deadline_time,geographic,univ_rank' --local -u root -p tsdh ~/Downloads/university_detail.csv
+
+
+
+SET  FOREIGN_KEY_CHECKS=0;
+
+DROP TABLE IF EXISTS universal_point;
+CREATE TABLE universal_point
+(
+  id              INTEGER(11)  NOT NULL AUTO_INCREMENT,
+  block_name      NVARCHAR(64)  NOT NULL,
+  less1           INTEGER(11) NOT NULL,
+  less2           INTEGER(11) NOT NULL,
+  less3           INTEGER(11) NOT NULL,
+  less4           INTEGER(11) NOT NULL,
+  less5           INTEGER(11) NOT NULL,
+  less6           INTEGER(11) NOT NULL,
+  less7           INTEGER(11) NOT NULL,
+  less8           INTEGER(11) NOT NULL,
+  less9           INTEGER(11) NOT NULL,
+  less10           INTEGER(11) NOT NULL,
+  less11           INTEGER(11) NOT NULL,
+  less12           INTEGER(11) NOT NULL,
+  less13           INTEGER(11) NOT NULL,
+  less14           INTEGER(11) NOT NULL,
+  less15           INTEGER(11) NOT NULL,
+  less16           INTEGER(11) NOT NULL,
+  less17           INTEGER(11) NOT NULL,
+  less18           INTEGER(11) NOT NULL,
+  less19           INTEGER(11) NOT NULL,
+  less20           INTEGER(11) NOT NULL,
+  less21           INTEGER(11) NOT NULL,
+  less22           INTEGER(11) NOT NULL,
+  less23           INTEGER(11) NOT NULL,
+  less24           INTEGER(11) NOT NULL,
+  less25           INTEGER(11) NOT NULL,
+  less26           INTEGER(11) NOT NULL,
+  less27           INTEGER(11) NOT NULL,
+  less28           INTEGER(11) NOT NULL,
+  less29           INTEGER(11) NOT NULL,
+  less30           INTEGER(11) NOT NULL,
+  created_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (id)
+)
+  ENGINE = InnoDB DEFAULT CHARSET=utf8;
+
+SET  FOREIGN_KEY_CHECKS=1;
+
+mysqlimport --ignore-lines=1 --fields-terminated-by=, --columns='id,univ_code,univ_name,univ_level,branch_name,branch_code,combination_code,amount_student,type_admission,total_score,receive_time,deadline_time,geographic,univ_rank' --local -u root -p tsdh ~/Downloads/university_detail.csv
+
+
+
